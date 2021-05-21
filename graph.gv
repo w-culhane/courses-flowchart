@@ -1,9 +1,56 @@
 digraph asde91 {
-ranksep=.75; size = "7.5,7.5"; rankdir=LR;
+    ranksep=.75; size = "7.5,7.5"; rankdir=LR;
 
-{node [shape=plaintext, fontsize=16];
-"Fall 2019" -> "Spring 2020" -> "Fall 2020" -> "Spring 2021" -> "Summer 2021" -> "Fall 2021";
-}
-node [shape=box];
-{ rank = same; "Fall 2019"; "SPNS 102"; }
+    {node [shape=plaintext, fontsize=16];
+	"Fall 2019" -> "Spring 2020" -> "Fall 2020" -> "Winter 2020-21"
+	-> "Spring 2021" -> "Summer 2021" -> "Fall 2021";
+    }
+
+    {node [shape=box];
+	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
+	{ rank = same; "Spring 2020"; "PHSX 220"; "M 182Q"; "HONR 202IH"; "CS 145RA"; "CHMY 153"; }
+	{ rank = same; "Fall 2020"; "PHSX 222"; "M 273Q"; "EELE 261"; "CHMY 331"; "CHMY 311"; }
+	{ rank = same; "Winter 2020-21"; "CSCI 127"; }
+	{ rank = same; "Spring 2021"; "M 274"; "EGEN 102"; "EELE 367"; "ECHM 201"; "CHMY 333"; }
+	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
+	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
+    }
+
+    "CHMY 151" -> "CHMY 153";
+    "HONR 201US" -> "HONR 202IH";
+    "M 181Q" -> "M 182Q";
+    "M 181Q" -> "PHSX 220" [style=dotted];
+
+    "CHMY 153" -> "CHMY 311";
+    "CHMY 153" -> "CHMY 331";
+    "M 182Q" -> "M 273Q";
+    "PHSX 220" -> "PHSX 222";
+
+    "M 181Q" -> "CSCI 127" [style=dotted];
+
+    "CHMY 151" -> "ECHM 201" [style=dotted];
+    "CHMY 331" -> "CHMY 333";
+    "EELE 261" -> "EELE 367";
+    "M 181Q" -> "ECHM 201" [style=dotted];
+    "M 181Q" -> "EGEN 102" [style=dotted];
+    "M 182Q" -> "M 274";
+
+    "CHMY 151" -> "EMAT 251";
+    "CSCI 127" -> "CSCI 112";
+    "CSCI 127" -> "CSCI 132";
+    "EELE 261" -> "EELE 371";
+    "M 181Q" -> "CSCI 132";
+    "M 181Q" -> "EMAT 251" [style=dotted];
+
+    "CSCI 112" -> "EELE 467";
+    "ECHM 201" -> "ECHM 307";
+    "ECHM 201" -> "ECHM 321";
+    "ECHM 201" -> "ECHM 322";
+    "ECHM 321" -> "ECHM 322" [style=dotted];
+    "EELE 367" -> "EELE 467";
+    "EGEN 102" -> "ECHM 322";
+    "M 181Q" -> "EELE 101";
+    "M 273Q" -> "ECHM 307";
+    "M 273Q" -> "ECHM 321";
+    "M 274" -> "ECHM 321" [style=dotted];
 }
