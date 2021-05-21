@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-all: graph.pdf
+all: graph.pdf graph.svg
 
 %.pdf: %.gv
 	dot -Tpdf $^ -o $@
