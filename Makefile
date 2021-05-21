@@ -2,8 +2,8 @@
 
 all: graph.pdf graph.svg
 
-%.pdf: %.gv
-	dot -Tpdf $^ -o $@
+%.pdf: %.svg
+	inkscape $^ --batch-process --export-area-drawing -o $@
 
 %.svg: %.gv
 	dot -Tsvg $^ -o $@
