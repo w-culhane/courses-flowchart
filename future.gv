@@ -1,8 +1,16 @@
 digraph future {
 
     {node [shape=box];
+    {rank=same;
+        "Chemical Engineering" ->
+        "Computer Engineering" ->
+        "Biochemistry minor"
+	[arrowhead=none,color=invis];
+	}
+    }
 
-        "Chemical Engineering"
+    {node [shape=box];
+
         "ECHM 100"
         "EGEN 350"
         "EBIO 438"
@@ -18,9 +26,8 @@ digraph future {
         "CHMY 373"
         "EGEN 488"
         "ECHM 443"
-        CHELECTIVES [label="Electives\n11 cred.",shape=oval]
+        CHELECTIVES [label="Electives\n11 cred.",shape=diamond,color=red]
 
-        "Computer Engineering"
         "EELE 201"
         "EELE 203"
         "EELE 308"
@@ -33,15 +40,24 @@ digraph future {
         "EELE 468"
         "EELE 489R"
         "EELE 487"
-        COELECTIVES [label="Electives\n12 cred.",shape=oval]
+        COELECTIVES [label="Electives\n12 cred.",shape=diamond,color=blue]
 
-        "Biochemistry minor"
         "BIOB 260"
         "BCH 441"
         "BCH 442"
         "BCH 380"
         "BCH 381"
-        BCHELECTIVES [label="Elective\n3 cred.",shape=oval]
+        BCHELECTIVES [label="Elective\n3 cred.",shape=diamond,color=green]
+
+        "CHMY 417"
+        "CHMY 513"
+        "CSCI 460"
+        "CSCI 441"
+        "EELE 484"
+        "EELE 407"
+
+        "CSCI 232"
+	"M 221"
     }
 
     "Chemical Engineering" -> { "ECHM 100" "EGEN 350" "EBIO 438"
@@ -81,4 +97,16 @@ digraph future {
     "BCH 380" -> "BCH 381" [style=dashed];
     "BIOB 260" -> "BCH 441";
     "BCH 441" -> "BCH 442";
+
+    // Electives
+    CHELECTIVES -> { "CHMY 417" }
+    [arrowhead=none,color=red];
+    CHELECTIVES -> { "CHMY 513" }
+    [arrowhead=none,style=dotted,color=red];
+
+    COELECTIVES -> { "EELE 484" "EELE 407" "CSCI 460" "CSCI 232" "CSCI 441" }
+    [arrowhead=none,color=blue];
+
+    "CSCI 232" -> { "CSCI 441" "CSCI 460" };
+    "M 221" -> "CSCI 441";
 }
