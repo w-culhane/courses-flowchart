@@ -1,10 +1,18 @@
-digraph asde91 {
+digraph courses {
     ranksep=.75; size = "7.5,7.5"; rankdir=LR;
 
     {node [shape=plaintext, fontsize=16];
 	"Fall 2019" -> "Spring 2020" -> "Fall 2020" -> "Winter 2020-21"
 	-> "Spring 2021" -> "Summer 2021" -> "Fall 2021";
     }
+
+    "Fall 2019" [label="\N\n15 credits"]
+    "Spring 2020" [label="\N\n19 credits"]
+    "Fall 2020" [label="\N\n20 credits"]
+    "Winter 2020-21" [label="\N\n4 credits"]
+    "Spring 2021" [label="\N\n19 credits"]
+    "Summer 2021" [label="\N\n14 credits"]
+    "Fall 2021" [label="\N\n20 credits"]
 
     {node [shape=box];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -16,19 +24,59 @@ digraph asde91 {
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
     }
 
+    "CHMY 151"   [label="\N\nHonors Chemistry 1"]
+    "HONR 201US" [label="\N\nTexts and Critics 1"]
+    "M 181Q"     [label="\N\nHonors Calculus 1"]
+    "SPNS 102D"  [label="\N\nElementary Spanish 2"]
+
+    "CHMY 153"   [label="\N\nHonors Chemistry 2"]
+    "CS 145RA"   [label="\N\nWeb Design"]
+    "HONR 202IH" [label="\N\nTexts and Critics 2"]
+    "M 182Q"     [label="\N\nHonors Calculus 2"]
+    "PHSX 220"   [label="\N\nPhysics 1"]
+
+    "CHMY 311"   [label="\N\nAnalytical Chemistry"]
+    "CHMY 331"   [label="\N\nHonors Organic Chemistry 1"]
+    "EELE 261"   [label="\N\nIntro to Logic Circuits"]
+    "M 273Q"     [label="\N\nMultivariable Calculus"]
+    "PHSX 222"   [label="\N\nPhysics 2"]
+
+    "CSCI 127"   [label="\N\nJoy and Beauty of Data"]
+
+    "CHMY 333"  [label="\N\nHonors Organic Chemistry 2"]
+    "ECHM 201"  [label="\N\nPrinciples of Biological\nand Chemical Engineering"]
+    "EELE 367"  [label="\N\nLogic Design"]
+    "EGEN 102"  [label="\N\nIntro to Engineer\nComputer Applications"]
+    "M 274"     [label="\N\nIntro to Differential\nEquations"]
+
+    "CSCI 112" [label="\N\nProgramming with C"]
+    "CSCI 132" [label="\N\nBasic Data Structures\nand Algorithms"]
+    "EELE 371" [label="\N\nMicroprocessor Hardware\nand Software Systems"]
+    "EMAT 251" [label="\N\nMaterials Structures\nand Properties"]
+
+    "ECHM 307" [label="\N\nThermodynamics 1"]
+    "ECHM 321" [label="\N\nFluid Mechanics\nOperations"]
+    "ECHM 322" [label="\N\nHeat Transfer\nOperations"]
+    "ECNS 251IS" [label="\N\nHonors Economics"]
+    "EELE 101" [label="\N\nIntro to Electrical\nFundamentals"]
+    "EELE 467" [label="\N\nSoC FPGAs 1:\nHardware-Software\nCodesign"]
+
+    // Spring 2020
     "CHMY 151" -> "CHMY 153";
     "HONR 201US" -> "HONR 202IH";
     "M 181Q" -> "M 182Q";
     "M 181Q" -> "PHSX 220" [style=dotted];
 
-    "CHMY 153" -> "CHMY 311";
-    "CHMY 153" -> "CHMY 331";
+    // Fall 2020
+    "CHMY 153" -> { "CHMY 311" "CHMY 331" };
     "M 182Q" -> "M 273Q";
     "M 182Q" -> "PHSX 222" [style=dotted];
     "PHSX 220" -> "PHSX 222";
 
+    // Winter 2020-21
     "M 181Q" -> "CSCI 127" [style=dotted];
 
+    // Spring 2021
     "CHMY 151" -> "ECHM 201" [style=dotted];
     "CHMY 331" -> "CHMY 333";
     "EELE 261" -> "EELE 367";
@@ -36,22 +84,20 @@ digraph asde91 {
     "M 181Q" -> "EGEN 102" [style=dotted];
     "M 182Q" -> "M 274";
 
+    // Summer 2021
     "CHMY 151" -> "EMAT 251";
-    "CSCI 127" -> "CSCI 112";
-    "CSCI 127" -> "CSCI 132";
+    "CSCI 127" -> { "CSCI 112" "CSCI 132" };
     "EELE 261" -> "EELE 371";
     "M 181Q" -> "CSCI 132";
     "M 181Q" -> "EMAT 251" [style=dotted];
 
+    // Fall 2021
     "CSCI 112" -> "EELE 467";
-    "ECHM 201" -> "ECHM 307";
-    "ECHM 201" -> "ECHM 321";
-    "ECHM 201" -> "ECHM 322";
+    "ECHM 201" -> { "ECHM 307" "ECHM 321" "ECHM 322" };
     "ECHM 321" -> "ECHM 322" [style=dotted];
     "EELE 367" -> "EELE 467";
     "EGEN 102" -> "ECHM 322";
     "M 181Q" -> "EELE 101";
-    "M 273Q" -> "ECHM 307";
-    "M 273Q" -> "ECHM 321";
+    "M 273Q" -> { "ECHM 307" "ECHM 321" };
     "M 274" -> "ECHM 321" [style=dotted];
 }
