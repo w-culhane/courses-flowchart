@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-all: courses.pdf courses.svg
+all: courses.pdf courses.svg future.pdf future.svg
 
 %.pdf: %.svg
 	inkscape $^ --batch-process --export-area-drawing -o $@

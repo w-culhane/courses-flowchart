@@ -1,0 +1,84 @@
+digraph future {
+
+    {node [shape=box];
+
+        "Chemical Engineering"
+        "ECHM 100"
+        "EGEN 350"
+        "EBIO 438"
+        "EGEN 310R"
+        "ECHM 323"
+        "ECHM 328"
+        "ECHM 411R"
+        "ECHM 442"
+        "ECHM 407"
+        "ECHM 424"
+        "ECHM 412R"
+        "ECHM 451"
+        "CHMY 373"
+        "EGEN 488"
+        "ECHM 443"
+        CHELECTIVES [label="Electives\n11 cred.",shape=oval]
+
+        "Computer Engineering"
+        "EELE 201"
+        "EELE 203"
+        "EELE 308"
+        "EELE 317"
+        "CSCI 246"
+        "EELE 465"
+        "EELE 321"
+        "EELE 334"
+        "EELE 488R"
+        "EELE 468"
+        "EELE 489R"
+        "EELE 487"
+        COELECTIVES [label="Electives\n12 cred.",shape=oval]
+
+        "Biochemistry minor"
+        "BIOB 260"
+        "BCH 441"
+        "BCH 442"
+        "BCH 380"
+        "BCH 381"
+        BCHELECTIVES [label="Elective\n3 cred.",shape=oval]
+    }
+
+    "Chemical Engineering" -> { "ECHM 100" "EGEN 350" "EBIO 438"
+        "EGEN 310R" "ECHM 323" "ECHM 328" "ECHM 411R" "ECHM 442"
+        "ECHM 407" "ECHM 424" "ECHM 412R" "ECHM 451" "CHMY 373"
+        "EGEN 488" "ECHM 443" CHELECTIVES }
+        [arrowhead=none,color=red];
+
+    "Computer Engineering" -> { "EELE 201" "EGEN 350" "EELE 203"
+        "EGEN 310R" "EELE 308" "EELE 317" "CSCI 246" "EELE 465"
+        "EELE 321" "EELE 334" "EELE 488R" "EELE 468" "EGEN 488"
+        "EELE 489R" "EELE 487" COELECTIVES }
+        [arrowhead=none,color=blue];
+
+    "Biochemistry minor" -> { "BCH 441" "BCH 442" "BCH 381"
+        BCHELECTIVES }
+        [arrowhead=none,color=green];
+
+    { "ECHM 323" "ECHM 328" } -> "ECHM 411R";
+    "EGEN 310R" -> "ECHM 411R" [style=dashed];
+    { "ECHM 323" "EGEN 350" } -> "ECHM 442";
+    { "ECHM 323" "ECHM 328"} -> "ECHM 407";
+    "ECHM 323" -> "ECHM 424";
+    "ECHM 411R" -> "ECHM 412R";
+    { "ECHM 323" "ECHM 328" } -> "ECHM 451";
+    "ECHM 442" -> "ECHM 443";
+
+    "EELE 201" -> "EELE 203";
+    "EELE 203" -> "EELE 308";
+    "EELE 203" -> "EELE 317";
+    "EELE 203" -> "EELE 321";
+    { "EELE 317" "EGEN 310R" } -> "EELE 488R";
+    "EELE 488R" -> "EELE 489R";
+    COELECTIVES;
+
+    "BIOB 260" -> "BCH 380";
+    "BCH 380" -> "BCH 381" [style=dashed];
+    "BIOB 260" -> "BCH 441";
+    "BCH 441" -> "BCH 442";
+}
