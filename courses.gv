@@ -25,15 +25,15 @@ digraph courses {
     }
 
     // Honors classes
-    "CHMY 151"   [color=red,style=dashed]
-    "CHMY 153"   [color=red,style=dashed]
-    "CHMY 331"   [color=red,style=dashed]
-    "CHMY 333"   [color=red,style=dashed]
-    "HONR 201US" [color=red,style=dashed]
-    "HONR 202IH" [color=red,style=dashed]
-    "M 181Q"     [color=red,style=dashed]
-    "M 182Q"     [color=red,style=dashed]
-    "ECNS 251IS" [color=red,style=dashed]
+    "CHMY 151"   [color=red]
+    "CHMY 153"   [color=red]
+    "CHMY 331"   [color=red]
+    "CHMY 333"   [color=red]
+    "HONR 201US" [color=red]
+    "HONR 202IH" [color=red]
+    "M 181Q"     [color=red]
+    "M 182Q"     [color=red]
+    "ECNS 251IS" [color=red]
 
     // Course labels
 
