@@ -2,8 +2,8 @@ digraph courses {
     ranksep=.75; rankdir=LR;
 
     {node [shape=plaintext,fontsize=16];
-	"Fall 2019" -> "Spring 2020" -> "Fall 2020" -> "Winter 2020-21"
-	-> "Spring 2021" -> "Summer 2021" -> "Fall 2021";
+        "Fall 2019" -> "Spring 2020" -> "Fall 2020" -> "Winter 2020-21"
+        -> "Spring 2021" -> "Summer 2021" -> "Fall 2021";
     }
 
     "Fall 2019" [label="\N\n15 credits"]
@@ -15,13 +15,13 @@ digraph courses {
     "Fall 2021" [label="\N\n20 credits"]
 
     {node [shape=box];
-	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
-	{ rank = same; "Spring 2020"; "PHSX 220"; "M 182Q"; "HONR 202IH"; "CS 145RA"; "CHMY 153"; }
-	{ rank = same; "Fall 2020"; "PHSX 222"; "M 273Q"; "EELE 261"; "CHMY 331"; "CHMY 311"; }
-	{ rank = same; "Winter 2020-21"; "CSCI 127"; }
-	{ rank = same; "Spring 2021"; "M 274"; "EGEN 102"; "EELE 367"; "ECHM 201"; "CHMY 333"; }
-	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
-	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
+        { rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
+        { rank = same; "Spring 2020"; "PHSX 220"; "M 182Q"; "HONR 202IH"; "CS 145RA"; "CHMY 153"; }
+        { rank = same; "Fall 2020"; "PHSX 222"; "M 273Q"; "EELE 261"; "CHMY 331"; "CHMY 311"; }
+        { rank = same; "Winter 2020-21"; "CSCI 127"; }
+        { rank = same; "Spring 2021"; "M 274"; "EGEN 102"; "EELE 367"; "ECHM 201"; "CHMY 333"; }
+        { rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
+        { rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
     }
 
     // Honors classes
