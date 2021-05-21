@@ -51,7 +51,7 @@ digraph courses {
     "PHSX 220"   [label="\N\nPhysics 1"]
 
     // Fall 2020
-    "CHMY 311"   [label="\N\nAnalytical Chemistry"]
+    "CHMY 311"   [label="\N\nFundamental\nAnalytical Chemistry"]
     "CHMY 331"   [label="\N\nHonors Organic Chemistry 1"]
     "EELE 261"   [label="\N\nIntro to Logic Circuits"]
     "M 273Q"     [label="\N\nMultivariable Calculus"]
