@@ -32,7 +32,7 @@ digraph asde91 {
     "CHMY 151" -> "ECHM 201" [style=dotted];
     "CHMY 331" -> "CHMY 333";
     "EELE 261" -> "EELE 367";
-    "M 181Q" -> "ECHM 201" [style=dotted];
+    "M 181Q" -> "ECHM 201";
     "M 181Q" -> "EGEN 102" [style=dotted];
     "M 182Q" -> "M 274";
 
