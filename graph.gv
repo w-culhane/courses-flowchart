@@ -24,6 +24,7 @@ digraph asde91 {
     "CHMY 153" -> "CHMY 311";
     "CHMY 153" -> "CHMY 331";
     "M 182Q" -> "M 273Q";
+    "M 182Q" -> "PHSX 222" [style=dotted];
     "PHSX 220" -> "PHSX 222";
 
     "M 181Q" -> "CSCI 127" [style=dotted];
