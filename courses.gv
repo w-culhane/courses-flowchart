@@ -87,23 +87,23 @@ digraph courses {
     "CHMY 151" -> "CHMY 153";
     "HONR 201US" -> "HONR 202IH";
     "M 181Q" -> "M 182Q";
-    "M 181Q" -> "PHSX 220" [style=dotted];
+    "M 181Q" -> "PHSX 220" [style=dashed];
 
     // Fall 2020
     "CHMY 153" -> { "CHMY 311" "CHMY 331" };
     "M 182Q" -> "M 273Q";
-    "M 182Q" -> "PHSX 222" [style=dotted];
+    "M 182Q" -> "PHSX 222" [style=dashed];
     "PHSX 220" -> "PHSX 222";
 
     // Winter 2020-21
-    "M 181Q" -> "CSCI 127" [style=dotted];
+    "M 181Q" -> "CSCI 127" [style=dashed];
 
     // Spring 2021
-    "CHMY 151" -> "ECHM 201" [style=dotted];
+    "CHMY 151" -> "ECHM 201" [style=dashed];
     "CHMY 331" -> "CHMY 333";
     "EELE 261" -> "EELE 367";
     "M 181Q" -> "ECHM 201";
-    "M 181Q" -> "EGEN 102" [style=dotted];
+    "M 181Q" -> "EGEN 102" [style=dashed];
     "M 182Q" -> "M 274";
 
     // Summer 2021
@@ -111,15 +111,15 @@ digraph courses {
     "CSCI 127" -> { "CSCI 112" "CSCI 132" };
     "EELE 261" -> "EELE 371";
     "M 181Q" -> "CSCI 132";
-    "M 181Q" -> "EMAT 251" [style=dotted];
+    "M 181Q" -> "EMAT 251" [style=dashed];
 
     // Fall 2021
     "CSCI 112" -> "EELE 467";
     "ECHM 201" -> { "ECHM 307" "ECHM 321" "ECHM 322" };
-    "ECHM 321" -> "ECHM 322" [style=dotted];
+    "ECHM 321" -> "ECHM 322" [style=dashed];
     "EELE 367" -> "EELE 467";
     "EGEN 102" -> "ECHM 322";
     "M 181Q" -> "EELE 101";
     "M 273Q" -> { "ECHM 307" "ECHM 321" };
-    "M 274" -> "ECHM 321" [style=dotted];
+    "M 274" -> "ECHM 321" [style=dashed];
 }
