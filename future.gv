@@ -55,6 +55,8 @@ digraph future {
         "EELE 407"  [label="\N\nIntro to\nMicrofabrication",style=dashed];
 	"CSCI 446"  [label="\N\nArtificial Intelligence",style=dashed];
 	"CSCI 451"  [label="\N\nComputational Biology",style=dashed];
+	"BCH 446"   [label="\N\nMetabolomics and\nSystems Biology",style=dashed];
+	"BCH 450"   [label="\N\nX-Ray Crystallography",style=dashed];
 
         "BIOB 260"  [label="\N\nCellular and\nMolecular Biology"];
         "CSCI 232"  [label="\N\nAdvanced Data Structures\nand Algorithms",style=dashed];
@@ -99,6 +101,7 @@ digraph future {
     "BCH 381" -> "BCH 380" [style=dashed];
     "BIOB 260" -> "BCH 441";
     "BCH 441" -> "BCH 442";
+    "BCH 442" -> "BCH 446";
 
     // Electives
     CHELECTIVES -> { "BIOB 260" "BCH 380" "M 221" }
@@ -107,7 +110,7 @@ digraph future {
     COELECTIVES -> { "EELE 484" "EELE 407" "CSCI 460" "CSCI 232" "CSCI 441" "CSCI 446" "CSCI 451" }
     [arrowhead=none,color=blue];
 
-    BCELECTIVES -> "CHMY 417"
+    BCELECTIVES -> { "CHMY 417" "BCH 446" "BCH 450" }
     [arrowhead=none,color=green];
 
     "CSCI 232" -> { "CSCI 441" "CSCI 460" };
