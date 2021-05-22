@@ -101,7 +101,7 @@ digraph future {
     "BCH 441" -> "BCH 442";
 
     // Electives
-    CHELECTIVES -> { "BCH 380" "PHSX 224" }
+    CHELECTIVES -> { "BIOB 260" "BCH 380" "PHSX 224" }
     [arrowhead=none,color=red];
     CHELECTIVES -> { "CHMY 417" "CHMY 513" }
     [arrowhead=none,style=dotted,color=red];
