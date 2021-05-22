@@ -28,7 +28,7 @@ digraph potential {
         { rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
         { rank = same; "Winter 2021-22"; "M 221"; "EGEN 350"; "EGEN 310R"; "CSCI 246"; "CSCI 232"; }
         { rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; "BIOB 260"; }
-        { rank = same; "Summer 2022"; "EELE 203"; "BCH 381"; "BCH 380";}
+        { rank = same; "Summer 2022"; "EELE 203"; "BCH 381"; "BCH 380"; }
     }
 
     // Honors classes
@@ -146,7 +146,6 @@ digraph potential {
     "ECHM 321" -> "ECHM 322" [style=dashed];
     "EELE 367" -> "EELE 467";
     "EGEN 102" -> "ECHM 322";
-    "M 181Q" -> "EELE 101";
     "M 273Q" -> { "ECHM 307" "ECHM 321" };
     "M 274" -> "ECHM 321" [style=dashed];
 

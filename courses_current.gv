@@ -119,7 +119,6 @@ digraph current {
     "ECHM 321" -> "ECHM 322" [style=dashed];
     "EELE 367" -> "EELE 467";
     "EGEN 102" -> "ECHM 322";
-    "M 181Q" -> "EELE 101";
     "M 273Q" -> { "ECHM 307" "ECHM 321" };
     "M 274" -> "ECHM 321" [style=dashed];
 }
