@@ -1,4 +1,4 @@
-digraph courses {
+digraph current {
     ranksep=.75; rankdir=LR;
 
     {node [shape=plaintext,fontsize=16];
