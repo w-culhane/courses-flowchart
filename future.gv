@@ -48,17 +48,17 @@ digraph future {
         "BCH 381"   [label="\N\nBiochemistry Lab"];
         BCELECTIVES [label="Elective\n3 cred.",shape=diamond,color=green]
 
-        "CHMY 417"  [label="\N\nSynthetic\nChemistry"];
-        "CHMY 513"  [label="\N\nComputational\nChemistry"];
-        "CSCI 460"  [label="\N\nOperating Systems"];
-        "CSCI 441"  [label="\N\nComputer Graphics"];
-        "EELE 484"  [label="\N\nLaser Engineering"];
-        "EELE 407"  [label="\N\nIntro to\nMicrofabrication"];
+        "CHMY 417"  [label="\N\nSynthetic\nChemistry",style=dashed];
+        "CSCI 460"  [label="\N\nOperating Systems",style=dashed];
+        "CSCI 441"  [label="\N\nComputer Graphics",style=dashed];
+        "EELE 484"  [label="\N\nLaser Engineering",style=dashed];
+        "EELE 407"  [label="\N\nIntro to\nMicrofabrication",style=dashed];
+	"CSCI 446"  [label="\N\nArtificial Intelligence",style=dashed];
+	"CSCI 451"  [label="\N\nComputational Biology",style=dashed];
 
         "BIOB 260"  [label="\N\nCellular and\nMolecular Biology"];
-        "CSCI 232"  [label="\N\nAdvanced Data Structures\nand Algorithms"];
-        "PHSX 224"  [label="\N\nPhysics 3"];
-	"M 221"     [label="\N\nIntro to\nLinear Algebra"];
+        "CSCI 232"  [label="\N\nAdvanced Data Structures\nand Algorithms",style=dashed];
+	"M 221"     [label="\N\nIntro to\nLinear Algebra",style=dashed];
     }
 
     "Chemical Engineering" -> { "ECHM 100" "EGEN 350" "EBIO 438"
@@ -101,12 +101,10 @@ digraph future {
     "BCH 441" -> "BCH 442";
 
     // Electives
-    CHELECTIVES -> { "BIOB 260" "BCH 380" "PHSX 224" }
+    CHELECTIVES -> { "BIOB 260" "BCH 380" "M 221" }
     [arrowhead=none,color=red];
-    CHELECTIVES -> { "CHMY 417" "CHMY 513" }
-    [arrowhead=none,style=dotted,color=red];
 
-    COELECTIVES -> { "EELE 484" "EELE 407" "CSCI 460" "CSCI 232" "CSCI 441" }
+    COELECTIVES -> { "EELE 484" "EELE 407" "CSCI 460" "CSCI 232" "CSCI 441" "CSCI 446" "CSCI 451" }
     [arrowhead=none,color=blue];
 
     BCELECTIVES -> "CHMY 417"
@@ -114,4 +112,5 @@ digraph future {
 
     "CSCI 232" -> { "CSCI 441" "CSCI 460" };
     "M 221" -> "CSCI 441";
+    { "CSCI 246" "CSCI 232" } -> { "CSCI 446" "CSCI 451" };
 }
