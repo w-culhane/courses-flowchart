@@ -6,13 +6,13 @@ digraph current {
         -> "Spring 2021" -> "Summer 2021" -> "Fall 2021";
     }
 
-    "Fall 2019" [label="\N\n15 credits"]
-    "Spring 2020" [label="\N\n19 credits"]
-    "Fall 2020" [label="\N\n20 credits"]
+    "Fall 2019"      [label="\N\n15 credits"]
+    "Spring 2020"    [label="\N\n19 credits"]
+    "Fall 2020"      [label="\N\n20 credits"]
     "Winter 2020-21" [label="\N\n4 credits"]
-    "Spring 2021" [label="\N\n19 credits"]
-    "Summer 2021" [label="\N\n14 credits"]
-    "Fall 2021" [label="\N\n20 credits"]
+    "Spring 2021"    [label="\N\n19 credits"]
+    "Summer 2021"    [label="\N\n14 credits"]
+    "Fall 2021"      [label="\N\n20 credits"]
 
     {node [shape=box];
         { rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -61,25 +61,25 @@ digraph current {
     "CSCI 127"   [label="\N\nJoy and Beauty of Data"]
 
     // Spring 2021
-    "CHMY 333"  [label="\N\nHonors Organic Chemistry 2"]
-    "ECHM 201"  [label="\N\nPrinciples of Biological\nand Chemical Engineering"]
-    "EELE 367"  [label="\N\nLogic Design"]
-    "EGEN 102"  [label="\N\nIntro to Engineer\nComputer Applications"]
-    "M 274"     [label="\N\nIntro to Differential\nEquations"]
+    "CHMY 333"   [label="\N\nHonors Organic Chemistry 2"]
+    "ECHM 201"   [label="\N\nPrinciples of Biological\nand Chemical Engineering"]
+    "EELE 367"   [label="\N\nLogic Design"]
+    "EGEN 102"   [label="\N\nIntro to Engineer\nComputer Applications"]
+    "M 274"      [label="\N\nIntro to Differential\nEquations"]
 
     // Summer 2021
-    "CSCI 112" [label="\N\nProgramming with C"]
-    "CSCI 132" [label="\N\nBasic Data Structures\nand Algorithms"]
-    "EELE 371" [label="\N\nMicroprocessor Hardware\nand Software Systems"]
-    "EMAT 251" [label="\N\nMaterials Structures\nand Properties"]
+    "CSCI 112"   [label="\N\nProgramming with C"]
+    "CSCI 132"   [label="\N\nBasic Data Structures\nand Algorithms"]
+    "EELE 371"   [label="\N\nMicroprocessor Hardware\nand Software Systems"]
+    "EMAT 251"   [label="\N\nMaterials Structures\nand Properties"]
 
     // Fall 2021
-    "ECHM 307" [label="\N\nThermodynamics 1"]
-    "ECHM 321" [label="\N\nFluid Mechanics\nOperations"]
-    "ECHM 322" [label="\N\nHeat Transfer\nOperations"]
+    "ECHM 307"   [label="\N\nThermodynamics 1"]
+    "ECHM 321"   [label="\N\nFluid Mechanics\nOperations"]
+    "ECHM 322"   [label="\N\nHeat Transfer\nOperations"]
     "ECNS 251IS" [label="\N\nHonors Economics"]
-    "EELE 101" [label="\N\nIntro to Electrical\nFundamentals"]
-    "EELE 467" [label="\N\nSoC FPGAs 1:\nHardware-Software\nCodesign"]
+    "EELE 101"   [label="\N\nIntro to Electrical\nFundamentals"]
+    "EELE 467"   [label="\N\nSoC FPGAs 1:\nHardware-Software\nCodesign"]
 
     // Course pre- & co- requisites
 
