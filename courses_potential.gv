@@ -2,21 +2,27 @@ digraph potential {
     ranksep=.75; rankdir=LR;
 
     {node [shape=plaintext,fontsize=16];
-        "Fall 2019" -> "Spring 2020" -> "Fall 2020" -> "Winter 2020-21"
-        -> "Spring 2021" -> "Summer 2021" -> "Fall 2021" -> "Winter 2021-22"
-        -> "Spring 2022" -> "Summer 2022";
+        "Fall 2019" -> "Spring 2020"
+        -> "Fall 2020" -> "Winter 2020-21" -> "Spring 2021"
+        -> "Summer 2021" -> "Fall 2021" -> "Winter 2021-22" -> "Spring 2022"
+        -> "Summer 2022" -> "Fall 2022" -> "Spring 2023"
+        -> "Fall 2023" -> "Spring 2024";
     }
 
-    "Fall 2019" [label="\N\n15 credits"]
-    "Spring 2020" [label="\N\n19 credits"]
-    "Fall 2020" [label="\N\n20 credits"]
+    "Fall 2019"      [label="\N\n15 credits"]
+    "Spring 2020"    [label="\N\n19 credits"]
+    "Fall 2020"      [label="\N\n20 credits"]
     "Winter 2020-21" [label="\N\n4 credits"]
-    "Spring 2021" [label="\N\n19 credits"]
-    "Summer 2021" [label="\N\n14 credits"]
-    "Fall 2021" [label="\N\n20 credits"]
+    "Spring 2021"    [label="\N\n19 credits"]
+    "Summer 2021"    [label="\N\n14 credits"]
+    "Fall 2021"      [label="\N\n20 credits"]
     "Winter 2021-22" [label="\N\n13 credits"]
-    "Spring 2022" [label="\N\n21 credits"]
-    "Summer 2022" [label="\N\n9 credits"]
+    "Spring 2022"    [label="\N\n21 credits"]
+    "Summer 2022"    [label="\N\n9 credits"]
+    "Fall 2022"      [label="\N\n21 credits"]
+    "Spring 2023"    [label="\N\n21 credits"]
+    "Fall 2023"      [label="\N\n15 credits"]
+    "Spring 2024"    [label="\N\n10 credits"]
 
     {node [shape=box];
         { rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -29,6 +35,10 @@ digraph potential {
         { rank = same; "Winter 2021-22"; "M 221"; "EGEN 350"; "EGEN 310R"; "CSCI 246"; "CSCI 232"; }
         { rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; "BIOB 260"; }
         { rank = same; "Summer 2022"; "EELE 203"; "BCH 381"; "BCH 380"; }
+        { rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 442"; "ECHM 424"; "ECHM 411R"; "ECHM 407"; "BCH 441"; }
+        { rank = same; "Spring 2023"; "EGEN 488-1" "EELE 465"; "ECHM 451"; "ECHM 443"; "ECHM 412R"; "ECHM 100"; "CHMY 373"; "BCH 442"; }
+        { rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "EELE 321"; "EELE 308"; "CSCI 451";}
+        { rank = same; "Spring 2024"; "EGEN 488-2"; "EELE 489R"; "EELE 487"; "CSCI 441"; "BCH 446";}
     }
 
     // Honors classes
@@ -104,9 +114,42 @@ digraph potential {
     "EELE 468"   [label="\N\nSoC FPGAs 2:\nApplication-Specific\nComputing"]
 
     // Summer 2022
-    "BCH 380"   [label="\N\nBiochemistry"]
-    "BCH 381"   [label="\N\nBiochemistry Lab"]
-    "EELE 203"  [label="\N\nCircuits 2"]
+    "BCH 380"    [label="\N\nBiochemistry"]
+    "BCH 381"    [label="\N\nBiochemistry Lab"]
+    "EELE 203"   [label="\N\nCircuits 2"]
+
+    // Fall 2022
+    "BCH 441"    [label="\N\nBiochemistry\nof Macromolecules"]
+    "ECHM 407"   [label="\N\nThermodynamics 2"]
+    "ECHM 424"   [label="\N\nTransport Analysis"]
+    "ECHM 411R"  [label="\N\nChemical Engineering\nDesign 1"]
+    "ECHM 442"   [label="\N\nChemical Engineering\nLab 1"]
+    "EELE 317"   [label="\N\nElectronics"]
+    "EELE 407"   [label="\N\nIntro to\nMicrofabrication"]
+
+    // Spring 2023
+    "BCH 442"    [label="\N\nMetabolic Regulation"]
+    "CHMY 373"   [label="\N\nPhysical Chemistry 2"]
+    "ECHM 100"   [label="\N?\nIntro to Chemical\nEngineering",style=dotted]
+    "ECHM 412R"  [label="\N\nChemical Engineering\nDesign 2"]
+    "ECHM 443"   [label="\N\nChemical Engineering\nLab 2"]
+    "ECHM 451"   [label="\N\nProcess Dynamics\nand Control"]
+    "EELE 465"   [label="\N\nMicrocontroller Applications"]
+    "EGEN 488-1" [label="EGEN 488?\nChE\nFundamentals of\nEngineering Exam",style=dotted]
+
+    // Fall 2023
+    "CSCI 451"   [label="\N\nComputational Biology"]
+    "EELE 308"   [label="\N\nSignals and Systems\nAnalysis"]
+    "EELE 321"   [label="\N\nIntro to Feedback\nControls"]
+    "EELE 334"   [label="\N\nElectromagnetic Theory"]
+    "EELE 488R"  [label="\N\nElectrical Engineering\nDesign 1"]
+
+    // Spring 2024
+    "BCH 446"    [label="\N\nMetabolomics and Systems Biology"]
+    "CSCI 441"   [label="\N\nComputer Graphics"]
+    "EELE 489R"  [label="\N\nElectrical Engineering\nDesign 2"]
+    "EELE 487"   [label="\N\nEthics"]
+    "EGEN 488-2" [label="EGEN 488?\nCoE\nFundamentals of\nEngineering Exam",style=dotted]
 
     // Course pre- & co- requisites
 
@@ -165,7 +208,37 @@ digraph potential {
 
     // Summer 2022
     { "BIOB 260" "CHMY 333" } -> "BCH 380";
-    "BCH 380" -> "BCH 381" [style=dotted];
-    "BCH 381" -> "BCH 380" [style=dotted];
+    "BCH 380" -> "BCH 381" [style=dashed];
+    "BCH 381" -> "BCH 380" [style=dashed];
     { "EELE 201" "M 274" } -> "EELE 203";
+
+    // Fall 2022
+    { "BIOB 260" "CHMY 333" } -> "BCH 441";
+    { "ECHM 307" "ECHM 323" "ECHM 328" } -> "ECHM 407";
+    { "ECHM 321" "ECHM 322" "ECHM 323" "ECHM 328" } -> "ECHM 411R";
+    { "ECHM 323" "M 273Q" "M 274" } -> "ECHM 424";
+    "EGEN 310R" -> "ECHM 411R" [style=dashed];
+    { "ECHM 323" "EGEN 350" } -> "ECHM 442";
+    "EELE 203" -> "EELE 317";
+    "PHSX 222" -> "EELE 407";
+
+    // Spring 2023
+    "BCH 441" -> "BCH 442";
+    "M 273Q" -> "CHMY 373";
+    "ECHM 411R" -> "ECHM 412R";
+    "ECHM 442" -> "ECHM 443";
+    { "ECHM 328" "ECHM 323" "M 274" } -> "ECHM 451";
+    "EELE 371" -> "EELE 465";
+
+    // Fall 2023
+    { "CSCI 232" "CSCI 246" } -> "CSCI 451";
+    { "EELE 203" "M 273Q" } -> "EELE 308";
+    "EELE 203" -> "EELE 321";
+    { "PHSX 222" "M 273Q" } -> "EELE 334";
+    { "EELE 317" "EGEN 310R" } -> "EELE 488R";
+
+    // Spring 2024
+    "BCH 442" -> "BCH 446";
+    { "M 221" "CSCI 232" } -> "CSCI 441";
+    "EELE 488R" -> "EELE 489R";
 }
