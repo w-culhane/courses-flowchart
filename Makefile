@@ -1,6 +1,15 @@
 .PHONY: all clean
 
-all: courses_current.pdf courses_current.svg requirements.pdf requirements.svg courses_potential.pdf courses_potential.svg
+SOURCES := courses_current.gv requirements.gv courses_potential.gv
+
+PDFS = $(SOURCES:%.gv=%.pdf)
+SVGS = $(SOURCES:%.gv=%.svg)
+
+all: pdf svg
+
+pdf: $(PDFS)
+
+svg: $(SVGS)
 
 %.pdf: %.svg
 	inkscape $^ --batch-process --export-area-drawing -o $@
