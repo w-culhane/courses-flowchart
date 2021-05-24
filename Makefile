@@ -1,6 +1,6 @@
-.PHONY: all clean
+.PHONY: all clean pdf svg
 
-SOURCES := courses_current.gv requirements.gv courses_potential.gv
+SOURCES := $(wildcard *.gv)
 
 PDFS = $(SOURCES:%.gv=%.pdf)
 SVGS = $(SOURCES:%.gv=%.svg)
@@ -18,5 +18,5 @@ svg: $(SVGS)
 	dot -Tsvg $^ -o $@
 
 clean:
-	rm -f *.pdf
-	rm -f *.svg
+	rm -f $(PDFS)
+	rm -f $(SVGS)
