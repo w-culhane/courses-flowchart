@@ -149,7 +149,7 @@ digraph potential {
     "CSCI 441"   [label="\N\nComputer Graphics"]
     "EELE 489R"  [label="\N\nElectrical Engineering\nDesign 2"]
     "EELE 487"   [label="\N\nEthics"]
-    "EGEN 488-2" [label="EGEN 488?\nCoE\nFundamentals of\nEngineering Exam",style=dotted]
+    "EGEN 488-2" [label="EGEN 488?\nCpE\nFundamentals of\nEngineering Exam",style=dotted]
 
     // Course pre- & co- requisites
 
