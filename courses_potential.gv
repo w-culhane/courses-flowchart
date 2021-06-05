@@ -16,7 +16,7 @@ digraph potential {
     "Spring 2021"    [label="\N\n19 credits"]
     "Summer 2021"    [label="\N\n14 credits"]
     "Fall 2021"      [label="\N\n20 credits"]
-    "Winter 2021-22" [label="\N\n13 credits"]
+    "Winter 2021-22" [label="\N\n15 credits"]
     "Spring 2022"    [label="\N\n21 credits"]
     "Summer 2022"    [label="\N\n9 credits"]
     "Fall 2022"      [label="\N\n23 credits"]
@@ -36,9 +36,9 @@ digraph potential {
         { rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; "BIOB 260"; }
         { rank = same; "Summer 2022"; "EELE 203"; "BCH 380"; }
         { rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 442"; "ECHM 424"; "ECHM 411R"; "ECHM 407"; "ECHM 100"; "BCH 441"; }
-        { rank = same; "Spring 2023"; "EGEN 488-1" "ECHM 451"; "ECHM 443"; "ECHM 412R"; "CHMY 373"; "BCH 442"; }
+        { rank = same; "Spring 2023"; "ECHM 451"; "ECHM 443"; "ECHM 412R"; "CHMY 373"; "BCH 442"; }
         { rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "EELE 321"; "EELE 308"; "CSCI 451";}
-        { rank = same; "Spring 2024"; "EGEN 488-2"; "EELE 489R"; "EELE 487"; "EELE 465"; "CSCI 441"; "BCH 446";}
+        { rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 465"; "CSCI 441"; "BCH 446";}
     }
 
     // Honors classes
@@ -609,15 +609,6 @@ digraph potential {
     <TR><TD COLSPAN="2">Microcontroller Applications</TD></TR>
     </TABLE>>];
 
-    "EGEN 488-1" [label=<
-    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" COLOR="red">
-    <TR>
-    <TD>EGEN 488</TD>
-    <TD>0</TD>
-    </TR>
-    <TR><TD COLSPAN="2">FE Exam</TD></TR>
-    </TABLE>>];
-
     // Fall 2023
     "CSCI 451" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
@@ -701,10 +692,10 @@ digraph potential {
     <TR><TD COLSPAN="2">Professional Ethics and Practices</TD></TR>
     </TABLE>>];
 
-    "EGEN 488-2" [label=<
+    "EGEN 488" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" COLOR="red">
     <TR>
-    <TD>EGEN 488</TD>
+    <TD>\N</TD>
     <TD>0</TD>
     </TR>
     <TR><TD COLSPAN="2">FE Exam</TD></TR>
