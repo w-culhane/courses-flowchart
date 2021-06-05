@@ -14,7 +14,7 @@ digraph current {
     "Summer 2021"    [label="\N\n14 credits"]
     "Fall 2021"      [label="\N\n20 credits"]
 
-    {node [shape=box];
+    {node [shape=none,margin=0];
         { rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
         { rank = same; "Spring 2020"; "PHSX 220"; "M 182Q"; "HONR 202IH"; "CS 145RA"; "CHMY 153"; }
         { rank = same; "Fall 2020"; "PHSX 222"; "M 273Q"; "EELE 261"; "CHMY 331"; "CHMY 311"; }
@@ -25,61 +25,324 @@ digraph current {
     }
 
     // Honors classes
-    "CHMY 151"   [color=red]
-    "CHMY 153"   [color=red]
-    "CHMY 331"   [color=red]
-    "CHMY 333"   [color=red]
-    "HONR 201US" [color=red]
-    "HONR 202IH" [color=red]
-    "M 181Q"     [color=red]
-    "M 182Q"     [color=red]
-    "ECNS 251IS" [color=red]
+    // "CHMY 151"   [color=red]
+    // "CHMY 153"   [color=red]
+    // "CHMY 331"   [color=red]
+    // "CHMY 333"   [color=red]
+    // "HONR 201US" [color=red]
+    // "HONR 202IH" [color=red]
+    // "M 181Q"     [color=red]
+    // "M 182Q"     [color=red]
+    // "ECNS 251IS" [color=red]
 
     // Course labels
 
     // Fall 2019
-    "CHMY 151"   [label="\N\nHonors Chemistry 1"]
-    "HONR 201US" [label="\N\nTexts and Critics 1"]
-    "M 181Q"     [label="\N\nHonors Calculus 1"]
-    "SPNS 102D"  [label="\N\nElementary Spanish 2"]
+    "CHMY 151" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>CHEEVE 214</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Chemistry 1</TD></TR>
+    </TABLE>>];
+
+    "HONR 201US" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>NAH 321</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Texts and Critics 1</TD></TR>
+    </TABLE>>];
+
+    "M 181Q" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WILSON 1130</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Calculus 1</TD></TR>
+    </TABLE>>];
+
+    "SPNS 102D" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>CHEEVE 214</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Elementary Spanish 2</TD></TR>
+    </TABLE>>];
 
     // Spring 2020
-    "CHMY 153"   [label="\N\nHonors Chemistry 2"]
-    "CS 145RA"   [label="\N\nWeb Design"]
-    "HONR 202IH" [label="\N\nTexts and Critics 2"]
-    "M 182Q"     [label="\N\nHonors Calculus 2"]
-    "PHSX 220"   [label="\N\nPhysics 1"]
+    "CHMY 153" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>GAINES 243</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Chemistry 2</TD></TR>
+    </TABLE>>];
+
+    "CS 145RA" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Web Design</TD></TR>
+    </TABLE>>];
+
+    "HONR 202IH" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>NAH 321</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Texts and Critics 2</TD></TR>
+    </TABLE>>];
+
+    "M 182Q" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WILSON 1148</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Calculus 2</TD></TR>
+    </TABLE>>];
+
+    "PHSX 220" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>BARNAR 103</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Physics 1 (with Calculus)</TD></TR>
+    </TABLE>>];
 
     // Fall 2020
-    "CHMY 311"   [label="\N\nFundamental\nAnalytical Chemistry"]
-    "CHMY 331"   [label="\N\nHonors Organic Chemistry 1"]
-    "EELE 261"   [label="\N\nIntro to Logic Circuits"]
-    "M 273Q"     [label="\N\nMultivariable Calculus"]
-    "PHSX 222"   [label="\N\nPhysics 2"]
+    "CHMY 311" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Fundamental Analytical Chemistry</TD></TR>
+    </TABLE>>];
+
+    "CHMY 331" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>CHEEVE 215</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Organic Chemistry 1</TD></TR>
+    </TABLE>>];
+
+    "EELE 261" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Intro to Logic Circuits</TD></TR>
+    </TABLE>>];
+
+    "M 273Q" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>TRAP 308</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Multivariable Calculus</TD></TR>
+    </TABLE>>];
+
+    "PHSX 222" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Physics 2 (with Calculus)</TD></TR>
+    </TABLE>>];
 
     // Winter 2020-21
-    "CSCI 127"   [label="\N\nJoy and Beauty of Data"]
+    "CSCI 127" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Joy and Beauty of Data</TD></TR>
+    </TABLE>>];
 
     // Spring 2021
-    "CHMY 333"   [label="\N\nHonors Organic Chemistry 2"]
-    "ECHM 201"   [label="\N\nPrinciples of Biological\nand Chemical Engineering"]
-    "EELE 367"   [label="\N\nLogic Design"]
-    "EGEN 102"   [label="\N\nIntro to Engineer\nComputer Applications"]
-    "M 274"      [label="\N\nIntro to Differential\nEquations"]
+    "CHMY 333" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>LIN 234</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Organic Chemistry 2</TD></TR>
+    </TABLE>>];
+
+    "ECHM 201" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>NAH 201</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Principles of Chemical Engineering</TD></TR>
+    </TABLE>>];
+
+    "EELE 367" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Logic Design</TD></TR>
+    </TABLE>>];
+
+    "EGEN 102" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Intro to Computer Applications</TD></TR>
+    </TABLE>>];
+
+    "M 274" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WILSON 1148</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Intro to Differential Equations</TD></TR>
+    </TABLE>>];
 
     // Summer 2021
-    "CSCI 112"   [label="\N\nProgramming with C"]
-    "CSCI 132"   [label="\N\nBasic Data Structures\nand Algorithms"]
-    "EELE 371"   [label="\N\nMicroprocessor Hardware\nand Software Systems"]
-    "EMAT 251"   [label="\N\nMaterials Structures\nand Properties"]
+    "CSCI 112" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Programming with C</TD></TR>
+    </TABLE>>];
+
+    "CSCI 132" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Basic Data Structures and Algorithms</TD></TR>
+    </TABLE>>];
+
+    "EELE 371" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Microprocessor HW/SW Systems</TD></TR>
+    </TABLE>>];
+
+    "EMAT 251" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>WEB</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Materials Structures and Properties</TD></TR>
+    </TABLE>>];
 
     // Fall 2021
-    "ECHM 307"   [label="\N\nThermodynamics 1"]
-    "ECHM 321"   [label="\N\nFluid Mechanics\nOperations"]
-    "ECHM 322"   [label="\N\nHeat Transfer\nOperations"]
-    "ECNS 251IS" [label="\N\nHonors Economics"]
-    "EELE 101"   [label="\N\nIntro to Electrical\nFundamentals"]
-    "EELE 467"   [label="\N\nSoC FPGAs 1:\nHardware-Software\nCodesign"]
+    "ECHM 307" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>REID 105</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Thermodynamics 1</TD></TR>
+    </TABLE>>];
+
+    "ECHM 321" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>GAINES 143</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Fluid Mechanics Operations</TD></TR>
+    </TABLE>>];
+
+    "ECHM 322" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>REID 103</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Heat Transfer Operations</TD></TR>
+    </TABLE>>];
+
+    "ECNS 251IS" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>LIN 233</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Honors Economics</TD></TR>
+    </TABLE>>];
+
+    "EELE 101" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>NAH 165</TD>
+    <TD>3</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Intro to Electrical Fundamentals</TD></TR>
+    </TABLE>>];
+
+    "EELE 467" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>\N</TD>
+    <TD>ROBERT 210</TD>
+    <TD>4</TD>
+    </TR>
+    <TR><TD COLSPAN="3">SoC FPGAs 1: HW/SW Codesign</TD></TR>
+    </TABLE>>];
 
     // Course pre- & co- requisites
 
