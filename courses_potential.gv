@@ -358,333 +358,370 @@ digraph potential {
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Advanced Data Structures and Algorithms</TD></TR>
+    <TR><TD COLSPAN="3">Advanced Data Structures and Algorithms</TD></TR>
     </TABLE>>];
 
     "CSCI 246" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Discrete Structures</TD></TR>
+    <TR><TD COLSPAN="3">Discrete Structures</TD></TR>
     </TABLE>>];
 
     "EGEN 310R" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Multidisciplinary Engineering Design</TD></TR>
+    <TR><TD COLSPAN="3">Multidisciplinary Engineering Design</TD></TR>
     </TABLE>>];
 
     "EGEN 350" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S Su</TD>
     <TD>2</TD>
     </TR>
-    <TR><TD COLSPAN="2">Applied Engineering Data Analysis</TD></TR>
+    <TR><TD COLSPAN="3">Applied Engineering Data Analysis</TD></TR>
     </TABLE>>];
 
     "M 221" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S Su</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Intro to Linear Algebra</TD></TR>
+    <TR><TD COLSPAN="3">Intro to Linear Algebra</TD></TR>
     </TABLE>>];
 
     "BIOB 260" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Cellular and Molecular Biology</TD></TR>
+    <TR><TD COLSPAN="3">Cellular and Molecular Biology</TD></TR>
     </TABLE>>];
 
     "EBIO 438" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Bioprocess Engineering</TD></TR>
+    <TR><TD COLSPAN="3">Bioprocess Engineering</TD></TR>
     </TABLE>>];
 
     "ECHM 323" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Mass Transfer Operations</TD></TR>
+    <TR><TD COLSPAN="3">Mass Transfer Operations</TD></TR>
     </TABLE>>];
 
     "ECHM 328" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Reactor Design</TD></TR>
+    <TR><TD COLSPAN="3">Reactor Design</TD></TR>
     </TABLE>>];
 
     "EELE 201" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Circuits 1</TD></TR>
+    <TR><TD COLSPAN="3">Circuits 1</TD></TR>
     </TABLE>>];
 
     "EELE 468" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">SoC FPGAs 2: Application-Specific Computing</TD></TR>
+    <TR><TD COLSPAN="3">SoC FPGAs 2: Application-Specific Computing</TD></TR>
     </TABLE>>];
 
     "BCH 380" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S Su</TD>
     <TD>5</TD>
     </TR>
-    <TR><TD COLSPAN="2">Biochemistry</TD></TR>
+    <TR><TD COLSPAN="3">Biochemistry</TD></TR>
     </TABLE>>];
 
     "EELE 203" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S Su</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Circuits 2</TD></TR>
+    <TR><TD COLSPAN="3">Circuits 2</TD></TR>
     </TABLE>>];
 
     "BCH 441" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Biochemistry of Macromolecules</TD></TR>
+    <TR><TD COLSPAN="3">Biochemistry of Macromolecules</TD></TR>
     </TABLE>>];
 
     "ECHM 407" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>2</TD>
     </TR>
-    <TR><TD COLSPAN="2">Thermodynamics 2</TD></TR>
+    <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
     </TABLE>>];
 
     "ECHM 424" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Transport Analysis</TD></TR>
+    <TR><TD COLSPAN="3">Transport Analysis</TD></TR>
     </TABLE>>];
 
     "ECHM 411R" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Chemical Engineering Design 1</TD></TR>
+    <TR><TD COLSPAN="3">Chemical Engineering Design 1</TD></TR>
     </TABLE>>];
 
     "ECHM 442" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Chemical Engineering Lab 1</TD></TR>
+    <TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
     </TABLE>>];
 
     "EELE 317" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Electronics</TD></TR>
+    <TR><TD COLSPAN="3">Electronics</TD></TR>
     </TABLE>>];
 
     "EELE 407" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Intro to Microfabrication</TD></TR>
+    <TR><TD COLSPAN="3">Intro to Microfabrication</TD></TR>
     </TABLE>>];
 
     "BCH 442" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Metabolic Regulation</TD></TR>
+    <TR><TD COLSPAN="3">Metabolic Regulation</TD></TR>
     </TABLE>>];
 
     "CHMY 373" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Physical Chemistry 2</TD></TR>
+    <TR><TD COLSPAN="3">Physical Chemistry 2</TD></TR>
     </TABLE>>];
 
     "ECHM 100" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" COLOR="red">
     <TR>
     <TD>\N</TD>
+    <TD>F</TD>
     <TD>2</TD>
     </TR>
-    <TR><TD COLSPAN="2">Intro to Chemical Engineering</TD></TR>
+    <TR><TD COLSPAN="3">Intro to Chemical Engineering</TD></TR>
     </TABLE>>];
 
     "ECHM 412R" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Chemical Engineering Design 2</TD></TR>
+    <TR><TD COLSPAN="3">Chemical Engineering Design 2</TD></TR>
     </TABLE>>];
 
     "ECHM 443" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Chemical Engineering Lab 2</TD></TR>
+    <TR><TD COLSPAN="3">Chemical Engineering Lab 2</TD></TR>
     </TABLE>>];
 
     "ECHM 451" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Process Dynamics and Control</TD></TR>
+    <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
     </TABLE>>];
 
     "EELE 465" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Microcontroller Applications</TD></TR>
+    <TR><TD COLSPAN="3">Microcontroller Applications</TD></TR>
     </TABLE>>];
 
     "CSCI 451" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F odd</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Computational Biology</TD></TR>
+    <TR><TD COLSPAN="3">Computational Biology</TD></TR>
     </TABLE>>];
 
     "EELE 308" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="2">Signals and Systems Analysis</TD></TR>
+    <TR><TD COLSPAN="3">Signals and Systems Analysis</TD></TR>
     </TABLE>>];
 
     "EELE 321" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Intro to Feedback Controls</TD></TR>
+    <TR><TD COLSPAN="3">Intro to Feedback Controls</TD></TR>
     </TABLE>>];
 
     "EELE 334" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Electromagnetic Theory 1</TD></TR>
+    <TR><TD COLSPAN="3">Electromagnetic Theory 1</TD></TR>
     </TABLE>>];
 
     "EELE 488R" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>2</TD>
     </TR>
-    <TR><TD COLSPAN="2">Electrical Engineering Design 1</TD></TR>
+    <TR><TD COLSPAN="3">Electrical Engineering Design 1</TD></TR>
     </TABLE>>];
 
     "BCH 446" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Metabolomics and Systems Biology</TD></TR>
+    <TR><TD COLSPAN="3">Metabolomics and Systems Biology</TD></TR>
     </TABLE>>];
 
     "CSCI 441" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S even</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Computer Graphics</TD></TR>
+    <TR><TD COLSPAN="3">Computer Graphics</TD></TR>
     </TABLE>>];
 
     "EELE 489R" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>3</TD>
     </TR>
-    <TR><TD COLSPAN="2">Electrical Engineering Design 2</TD></TR>
+    <TR><TD COLSPAN="3">Electrical Engineering Design 2</TD></TR>
     </TABLE>>];
 
     "EELE 487" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
     <TD>\N</TD>
+    <TD>S</TD>
     <TD>1</TD>
     </TR>
-    <TR><TD COLSPAN="2">Professional Ethics and Practices</TD></TR>
+    <TR><TD COLSPAN="3">Professional Ethics and Practices</TD></TR>
     </TABLE>>];
 
     "EGEN 488" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" COLOR="red">
     <TR>
     <TD>\N</TD>
+    <TD>F S</TD>
     <TD>0</TD>
     </TR>
-    <TR><TD COLSPAN="2">FE Exam</TD></TR>
+    <TR><TD COLSPAN="3">FE Exam</TD></TR>
     </TABLE>>];
 
     // Course pre- & co- requisites
