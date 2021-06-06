@@ -19,10 +19,10 @@ digraph potential {
     "Winter 2021-22" [label="\N\n15 credits"]
     "Spring 2022"    [label="\N\n21 credits"]
     "Summer 2022"    [label="\N\n9 credits"]
-    "Fall 2022"      [label="\N\n23 credits"]
-    "Spring 2023"    [label="\N\n15 credits"]
-    "Fall 2023"      [label="\N\n15 credits"]
-    "Spring 2024"    [label="\N\n14 credits"]
+    "Fall 2022"      [label="\N\n?? credits"]
+    "Spring 2023"    [label="\N\n?? credits"]
+    "Fall 2023"      [label="\N\n?? credits"]
+    "Spring 2024"    [label="\N\n?? credits"]
 
     {node [shape=none,margin=0];
         { rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -35,10 +35,10 @@ digraph potential {
         { rank = same; "Winter 2021-22"; "M 221"; "EGEN 350"; "EGEN 310R"; "CSCI 246"; "CSCI 232"; }
         { rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; "BIOB 260"; }
         { rank = same; "Summer 2022"; "EELE 203"; "BCH 380"; }
-        { rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 442"; "ECHM 424"; "ECHM 411R"; "ECHM 407"; "ECHM 100"; "BCH 441"; }
-        { rank = same; "Spring 2023"; "ECHM 451"; "ECHM 443"; "ECHM 412R"; "CHMY 373"; "BCH 442"; }
-        { rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "EELE 321"; "EELE 308"; "CSCI 451";}
-        { rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 465"; "CSCI 441"; "BCH 446";}
+        { rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "EELE 308"; "ECHM 424"; "ECHM 407"; "ECHM 100"; "BCH 441"; }
+        { rank = same; "Spring 2023"; "EELE 465"; "ECHM 451"; "CHMY 373"; "BCH 442"; }
+        { rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "EELE 321"; "ECHM 442"; "ECHM 411R"; "CSCI 451";}
+        { rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "ECHM 443"; "ECHM 412R"; "CSCI 441"; "BCH 446";}
     }
 
     // Honors classes
@@ -54,7 +54,6 @@ digraph potential {
 
     // Course labels
 
-    // Fall 2019
     "CHMY 151" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -95,7 +94,6 @@ digraph potential {
     <TR><TD COLSPAN="3">Elementary Spanish 2</TD></TR>
     </TABLE>>];
 
-    // Spring 2020
     "CHMY 153" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -146,7 +144,6 @@ digraph potential {
     <TR><TD COLSPAN="3">Physics 1 (with Calculus)</TD></TR>
     </TABLE>>];
 
-    // Fall 2020
     "CHMY 311" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -197,7 +194,6 @@ digraph potential {
     <TR><TD COLSPAN="3">Physics 2 (with Calculus)</TD></TR>
     </TABLE>>];
 
-    // Winter 2020-21
     "CSCI 127" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -208,7 +204,6 @@ digraph potential {
     <TR><TD COLSPAN="3">Joy and Beauty of Data</TD></TR>
     </TABLE>>];
 
-    // Spring 2021
     "CHMY 333" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -259,7 +254,6 @@ digraph potential {
     <TR><TD COLSPAN="3">Intro to Differential Equations</TD></TR>
     </TABLE>>];
 
-    // Summer 2021
     "CSCI 112" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -300,7 +294,6 @@ digraph potential {
     <TR><TD COLSPAN="3">Materials Structures and Properties</TD></TR>
     </TABLE>>];
 
-    // Fall 2021
     "ECHM 307" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -361,7 +354,6 @@ digraph potential {
     <TR><TD COLSPAN="3">SoC FPGAs 1: HW/SW Codesign</TD></TR>
     </TABLE>>];
 
-    // Winter 2021-22
     "CSCI 232" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -407,7 +399,6 @@ digraph potential {
     <TR><TD COLSPAN="2">Intro to Linear Algebra</TD></TR>
     </TABLE>>];
 
-    // Spring 2022
     "BIOB 260" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -462,7 +453,6 @@ digraph potential {
     <TR><TD COLSPAN="2">SoC FPGAs 2: Application-Specific Computing</TD></TR>
     </TABLE>>];
 
-    // Summer 2022
     "BCH 380" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -481,7 +471,6 @@ digraph potential {
     <TR><TD COLSPAN="2">Circuits 2</TD></TR>
     </TABLE>>];
 
-    // Fall 2022
     "BCH 441" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -545,7 +534,6 @@ digraph potential {
     <TR><TD COLSPAN="2">Intro to Microfabrication</TD></TR>
     </TABLE>>];
 
-    // Spring 2023
     "BCH 442" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -609,7 +597,6 @@ digraph potential {
     <TR><TD COLSPAN="2">Microcontroller Applications</TD></TR>
     </TABLE>>];
 
-    // Fall 2023
     "CSCI 451" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -655,7 +642,6 @@ digraph potential {
     <TR><TD COLSPAN="2">Electrical Engineering Design 1</TD></TR>
     </TABLE>>];
 
-    // Spring 2024
     "BCH 446" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -703,22 +689,18 @@ digraph potential {
 
     // Course pre- & co- requisites
 
-    // Spring 2020
     "CHMY 151" -> "CHMY 153";
     "HONR 201US" -> "HONR 202IH";
     "M 181Q" -> "M 182Q";
     "M 181Q" -> "PHSX 220" [style=dashed];
 
-    // Fall 2020
     "CHMY 153" -> { "CHMY 311" "CHMY 331" };
     "M 182Q" -> "M 273Q";
     "M 182Q" -> "PHSX 222" [style=dashed];
     "PHSX 220" -> "PHSX 222";
 
-    // Winter 2020-21
     "M 181Q" -> "CSCI 127" [style=dashed];
 
-    // Spring 2021
     "CHMY 151" -> "ECHM 201" [style=dashed];
     "CHMY 331" -> "CHMY 333";
     "EELE 261" -> "EELE 367";
@@ -726,14 +708,12 @@ digraph potential {
     "M 181Q" -> "EGEN 102" [style=dashed];
     "M 182Q" -> "M 274";
 
-    // Summer 2021
     "CHMY 151" -> "EMAT 251";
     "CSCI 127" -> { "CSCI 112" "CSCI 132" };
     "EELE 261" -> "EELE 371";
     "M 181Q" -> "CSCI 132";
     "M 181Q" -> "EMAT 251" [style=dashed];
 
-    // Fall 2021
     "CSCI 112" -> "EELE 467";
     "ECHM 201" -> { "ECHM 307" "ECHM 321" "ECHM 322" };
     "ECHM 321" -> "ECHM 322" [style=dashed];
@@ -742,13 +722,11 @@ digraph potential {
     "M 273Q" -> { "ECHM 307" "ECHM 321" };
     "M 274" -> "ECHM 321" [style=dashed];
 
-    // Winter 2021-22
     "CSCI 132" -> "CSCI 232";
     "M 181Q" -> "CSCI 246";
     "CSCI 132" -> "CSCI 246" [style=dashed];
     "M 182Q" -> { "EGEN 350" "M 221" };
 
-    // Spring 2022
     { "CHMY 151" "M 181Q" } -> "BIOB 260";
     { "ECHM 201" "M 274" } -> { "EBIO 438" "ECHM 328" };
     { "ECHM 307" "ECHM 322" } -> "ECHM 323";
@@ -756,11 +734,9 @@ digraph potential {
     "PHSX 222" -> "EELE 201" [style=dashed];
     "EELE 467" -> "EELE 468";
 
-    // Summer 2022
     { "BIOB 260" "CHMY 333" } -> "BCH 380";
     { "EELE 201" "M 274" } -> "EELE 203";
 
-    // Fall 2022
     { "BIOB 260" "CHMY 333" } -> "BCH 441";
     { "ECHM 307" "ECHM 323" "ECHM 328" } -> "ECHM 407";
     { "ECHM 321" "ECHM 322" "ECHM 323" "ECHM 328" } -> "ECHM 411R";
@@ -770,7 +746,6 @@ digraph potential {
     "EELE 203" -> "EELE 317";
     "PHSX 222" -> "EELE 407";
 
-    // Spring 2023
     "BCH 441" -> "BCH 442";
     "M 273Q" -> "CHMY 373";
     "ECHM 411R" -> "ECHM 412R";
@@ -778,14 +753,12 @@ digraph potential {
     { "ECHM 328" "ECHM 323" "M 274" } -> "ECHM 451";
     "EELE 371" -> "EELE 465";
 
-    // Fall 2023
     { "CSCI 232" "CSCI 246" } -> "CSCI 451";
     { "EELE 203" "M 273Q" } -> "EELE 308";
     "EELE 203" -> "EELE 321";
     { "PHSX 222" "M 273Q" } -> "EELE 334";
     { "EELE 317" "EGEN 310R" } -> "EELE 488R";
 
-    // Spring 2024
     "BCH 442" -> "BCH 446";
     { "M 221" "CSCI 232" } -> "CSCI 441";
     "EELE 488R" -> "EELE 489R";
