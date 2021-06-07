@@ -281,7 +281,7 @@ digraph potential {
     <TD>WEB</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="3">Microprocessor HW/SW Systems</TD></TR>
+    <TR><TD COLSPAN="3">Microprocessor HW and SW Systems</TD></TR>
     </TABLE>>];
 
     "EMAT 251" [label=<
@@ -351,7 +351,7 @@ digraph potential {
     <TD>ROBERT 210</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="3">SoC FPGAs 1: HW/SW Codesign</TD></TR>
+    <TR><TD COLSPAN="3">SoC FPGAs 1: HW-SW Codesign</TD></TR>
     </TABLE>>];
 
     "CSCI 232" [label=<
@@ -461,7 +461,7 @@ digraph potential {
     <TD>S</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="3">SoC FPGAs 2: Application-Specific Computing</TD></TR>
+    <TR><TD COLSPAN="3">SoC FPGAs 2: App-Specific Computing</TD></TR>
     </TABLE>>];
 
     "BCH 380" [label=<
