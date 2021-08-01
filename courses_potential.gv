@@ -281,7 +281,7 @@ digraph potential {
     <TD>WEB</TD>
     <TD>4</TD>
     </TR>
-    <TR><TD COLSPAN="3">Microprocessor HW and SW Systems</TD></TR>
+    <TR><TD COLSPAN="3">Microprocessor HW/SW Systems</TD></TR>
     </TABLE>>];
 
     "EMAT 251" [label=<
