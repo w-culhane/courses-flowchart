@@ -52,18 +52,21 @@ digraph requirements {
 		"CSCI 232"  [label="\N\nAdvanced Data Structures\nand Algorithms",style=dashed];
 		"CSCI 441"  [label="\N\nComputer Graphics",style=dashed];
 		"CSCI 446"  [label="\N\nArtificial Intelligence",style=dashed];
+		"CSCI 447"  [label="\N\nMachine Learning:\nSoft Computing",style=dashed];
 		"CSCI 451"  [label="\N\nComputational Biology",style=dashed];
 		"CSCI 460"  [label="\N\nOperating Systems",style=dashed];
 		"CSCI 466"  [label="\N\nNetworks",style=dashed];
 
 		"EELE 407"  [label="\N\nIntro to\nMicrofabrication",style=dashed];
-		"EELE 418"  [label="\N\nThe Art of Biochips -- An Intro to BioMEMS",style=dashed];
+		"EELE 417"  [label="\N\nAcoustics/Audio Engineering",style=dashed];
+		"EELE 418"  [label="\N\nThe Art of Biochips --\nAn Intro to BioMEMS",style=dashed];
 		"EELE 484"  [label="\N\nLaser Engineering",style=dashed];
-		"EELE 447"  [label="\N\nMobile Wireless Communications",style=dashed];
+		"EELE 447"  [label="\N\nMobile Wireless\nCommunications",style=dashed];
 
 		"CSCI 366"  [label="\N\nComputer Systems",style=dashed];
+		"CSCI 351"  [label="\N\nSystems Administration",style=dashed];
+		"EELE 445"  [label="\N\nTelecommunications\nSystems",style=dashed];
 		"ESOF 322"  [label="\N\nSoftware Engineering",style=dashed];
-		"EELE 445"  [label="\N\nTelecommunications Systems",style=dashed];
 		"STAT 216Q" [label="\N\nIntro to Statistics",style=dashed];
 	}
 
@@ -75,7 +78,7 @@ digraph requirements {
 		"BCH 380"   [label="\N\nBiochemistry"];
 		"BIOB 260"  [label="\N\nCellular and\nMolecular Biology"];
 		"CHMY 513"  [label="\N\nComputational Chemistry",style=dashed];
-		"EMEC 424"  [label="\N\nCellular Mechanotransduction",style=dashed];
+		"EMEC 424"  [label="\N\nCellular\nMechanotransduction",style=dashed];
 		"EMEC 465"  [label="\N\nBio-Inspired Engineering",style=dashed];
 		"M 221"     [label="\N\nIntro to\nLinear Algebra",style=dashed];
 	}
@@ -93,35 +96,32 @@ digraph requirements {
 	"BIOB 476R" [label="\N\nGene Construction",style=dashed];
 	}
 
-	"Chemical Engineering" -> { "ECHM 100" "EGEN 350" "EBIO 438"
-	"EGEN 310R" "ECHM 323" "ECHM 328" "ECHM 411R" "ECHM 442"
-	"ECHM 407" "ECHM 424" "ECHM 412R" "ECHM 451" "CHMY 373"
-	"EGEN 488" "ECHM 443" CHELECTIVES }
+	"Chemical Engineering" -> { "CHMY 373" "EBIO 438" "ECHM 100"
+	"ECHM 323" "ECHM 328" "ECHM 407" "ECHM 411R" "ECHM 412R"
+	"ECHM 424" "ECHM 442" "ECHM 443" "ECHM 451" "EGEN 310R"
+	"EGEN 350" "EGEN 488" CHELECTIVES }
 	[arrowhead=none,color=red];
 
-	"Computer Engineering" -> { "EELE 201" "EGEN 350" "EELE 203"
-	"EGEN 310R" "EELE 308" "EELE 317" "CSCI 246" "EELE 465"
-	"EELE 321" "EELE 334" "EELE 488R" "EELE 468" "EGEN 488"
-	"EELE 489R" "EELE 487" COELECTIVES }
+	"Computer Engineering" -> { "CSCI 246" "EELE 201" "EELE 203"
+	"EELE 308" "EELE 317" "EELE 321" "EELE 334" "EELE 465"
+	"EELE 468" "EELE 487" "EELE 488R" "EELE 489R" "EGEN 310R"
+	"EGEN 350" "EGEN 488" COELECTIVES }
 	[arrowhead=none,color=blue];
 
-	"Biochemistry minor" -> { "BCH 441" "BCH 442" "BCH 381"
+	"Biochemistry minor" -> { "BCH 381" "BCH 441" "BCH 442"
 	BCELECTIVES }
 	[arrowhead=none,color=green];
 
-	{ "ECHM 323" "ECHM 328" } -> "ECHM 411R";
-	"EGEN 310R" -> "ECHM 411R" [style=dashed];
-	{ "ECHM 323" "EGEN 350" } -> "ECHM 442";
-	{ "ECHM 323" "ECHM 328"} -> "ECHM 407";
 	"ECHM 323" -> "ECHM 424";
+	{ "ECHM 323" "ECHM 328"} -> { "ECHM 407" "ECHM 411R" "ECHM 451" };
+	{ "ECHM 323" "EGEN 350" } -> "ECHM 442";
+	"EGEN 310R" -> "ECHM 411R"
+	[style=dashed];
 	"ECHM 411R" -> "ECHM 412R";
-	{ "ECHM 323" "ECHM 328" } -> "ECHM 451";
 	"ECHM 442" -> "ECHM 443";
 
 	"EELE 201" -> "EELE 203";
-	"EELE 203" -> "EELE 308";
-	"EELE 203" -> "EELE 317";
-	"EELE 203" -> "EELE 321";
+	"EELE 203" -> { "EELE 308" "EELE 317" "EELE 321" };
 	{ "EELE 317" "EGEN 310R" } -> "EELE 488R";
 	"EELE 488R" -> "EELE 489R";
 	COELECTIVES;
@@ -134,25 +134,33 @@ digraph requirements {
 	"BCH 442" -> "BCH 446";
 
 	// Electives
-	CHELECTIVES -> { "BIOB 260" "BCH 380" "M 221" "CHMY 513" "EMEC 424" "EMEC 465" }
+	CHELECTIVES -> { "BCH 380" "BIOB 260" "CHMY 513" "EMEC 424" "EMEC 465" "M 221" }
 	[arrowhead=none,color=red];
 
-	COELECTIVES -> { "EELE 484" "EELE 407" "CSCI 460" "CSCI 232" "CSCI 441" "CSCI 446" "CSCI 451" "EELE 447" "EELE 445" "CSCI 466" "CSCI 366" "ESOF 322" "EELE 418" }
+	COELECTIVES -> { "CSCI 232" "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446" "CSCI 451" "CSCI 460" "CSCI 466" "EELE 407" "EELE 417" "EELE 418" "EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
 	[arrowhead=none,color=blue];
 
-	BCELECTIVES -> { "CHMY 417" "BCH 446" "BCH 450" }
+	BCELECTIVES -> { "BCH 446" "BCH 450" "CHMY 417" }
 	[arrowhead=none,color=green];
 
 	"EGEN 310R" -> "EMEC 465";
 
 	"CSCI 232" -> { "CSCI 441" "CSCI 460" "CSCI 466" "CSCI 366" "ESOF 322" };
 	"M 221" -> "CSCI 441";
-	{ "CSCI 246" "CSCI 232" } -> { "CSCI 446" "CSCI 451" };
+	{ "CSCI 232" "CSCI 246" } -> { "CSCI 446" "CSCI 447" "CSCI 451" };
+	{ "EELE 308" "EELE 317" } -> "EELE 445"
+	"CSCI 232" -> "CSCI 351"
+	"EELE 445" -> "EELE 447";
+
+	"CSCI 246" -> "CSCI 232"
+	[style=dotted];
+	"CSCI 351" -> "CSCI 460"
+	[style=dotted];
 	"CSCI 366" -> "CSCI 466"
 	[style=dotted];
-	{ "EELE 308" "EELE 317" } -> "EELE 445"
-	"EELE 445" -> "EELE 447";
 	{ "ESOF 322" "STAT 216Q" } -> "CSCI 446"
+	[style=dotted];
+	{ "ESOF 322" "M 221" "STAT 216Q" } -> "CSCI 447"
 	[style=dotted];
 
 	{ "BCH 380" "BCH 441" } -> "BIOB 476R";
