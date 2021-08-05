@@ -392,16 +392,6 @@ ranksep=.75; rankdir=LR;
 <TR><TD COLSPAN="3">Applied Engineering Data Analysis</TD></TR>
 </TABLE>>];
 
-"M 221" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>F S Su</TD>
-<TD>3</TD>
-</TR>
-<TR><TD COLSPAN="3">Intro to Linear Algebra</TD></TR>
-</TABLE>>];
-
 "BIOB 260" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
@@ -770,7 +760,7 @@ ranksep=.75; rankdir=LR;
 "CSCI 132" -> "CSCI 232";
 "M 181Q" -> "CSCI 246";
 "CSCI 132" -> "CSCI 246" [style=dashed];
-"M 182Q" -> { "EGEN 350" "M 221" };
+"M 182Q" -> "EGEN 350";
 
 { "CHMY 151" "M 181Q" } -> "BIOB 260";
 { "ECHM 201" "M 274" } -> { "EBIO 438" "ECHM 328" };
