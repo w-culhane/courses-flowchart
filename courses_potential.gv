@@ -4,7 +4,7 @@ ranksep=.75; rankdir=LR;
 {node [shape=plaintext,fontsize=16];
 	"Fall 2019" -> "Spring 2020"
 	-> "Fall 2020" -> "Winter 2020-21" -> "Spring 2021"
-	-> "Summer 2021" -> "Fall 2021" -> "Winter 2021-22" -> "Spring 2022"
+	-> "Summer 2021" -> "Fall 2021" -> "Spring 2022"
 	-> "Summer 2022" -> "Fall 2022" -> "Spring 2023"
 	-> "Fall 2023" -> "Spring 2024";
 }
@@ -16,15 +16,14 @@ ranksep=.75; rankdir=LR;
 "Spring 2021"    [label="\N\n19 credits"]
 "Summer 2021"    [label="\N\n14 credits"]
 "Fall 2021"      [label="\N\n20 credits"]
-"Winter 2021-22" [label="\N\n15 credits"]
 "Spring 2022"    [label="\N\n21 credits"]
-"Summer 2022"    [label="\N\n9 credits"]
-"Fall 2022"      [label="\N\n17 credits"]
+"Summer 2022"    [label="\N\n17 credits"]
+"Fall 2022"      [label="\N\n21 credits"]
 "Spring 2023"    [label="\N\n17 credits"]
-"Fall 2023"      [label="\N\n17 credits"]
+"Fall 2023"      [label="\N\n20 credits"]
 "Spring 2024"    [label="\N\n16 credits"]
 
-{node [shape=none,margin=0];
+	{node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
 	{ rank = same; "Spring 2020"; "PHSX 220"; "M 182Q"; "HONR 202IH"; "CS 145RA"; "CHMY 153"; }
 	{ rank = same; "Fall 2020"; "PHSX 222"; "M 273Q"; "EELE 261"; "CHMY 331"; "CHMY 311"; }
@@ -32,13 +31,12 @@ ranksep=.75; rankdir=LR;
 	{ rank = same; "Spring 2021"; "M 274"; "EGEN 102"; "EELE 367"; "ECHM 201"; "CHMY 333"; }
 	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
-	{ rank = same; "Winter 2021-22"; "M 221"; "EGEN 350"; "EGEN 310R"; "CSCI 246"; "CSCI 232"; }
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; "BIOB 260"; }
-	{ rank = same; "Summer 2022"; "EELE 203"; "BCH 380"; }
-	{ rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 424"; "ECHM 407"; "ECHM 100"; "BCH 441"; }
+	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "EELE 203"; "CSCI 246"; "BCH 380"; }
+	{ rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 424"; "ECHM 407"; "ECHM 100"; "CSCI 232"; "BCH 441"; }
 	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "CHMY 373"; "BCH 442"; }
-	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "EELE 321"; "ECHM 442"; "ECHM 411R"; "CSCI 451";}
-	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "ECHM 443"; "ECHM 412R"; "CSCI 441"; "BCH 446";}
+	{ rank = same; "Fall 2023"; "EMEC 424"; "EELE 488R"; "EELE 321"; "ECHM 442"; "ECHM 411R"; "CSCI 460"; "CSCI 451";}
+	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 334"; "ECHM 443"; "ECHM 412R"; "BCH 446";}
 }
 
 // Honors classes
@@ -684,16 +682,6 @@ ranksep=.75; rankdir=LR;
 <TR><TD COLSPAN="3">Metabolomics and Systems Biology</TD></TR>
 </TABLE>>];
 
-"CSCI 441" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>S even</TD>
-<TD>3</TD>
-</TR>
-<TR><TD COLSPAN="3">Computer Graphics</TD></TR>
-</TABLE>>];
-
 "EELE 489R" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
@@ -722,6 +710,26 @@ ranksep=.75; rankdir=LR;
 <TD>0</TD>
 </TR>
 <TR><TD COLSPAN="3">FE Exam</TD></TR>
+</TABLE>>];
+
+"EMEC 424" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>F</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Cellular Mechanotransduction</TD></TR>
+</TABLE>>];
+
+"CSCI 460" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>F</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Operating Systems</TD></TR>
 </TABLE>>];
 
 // Course pre- & co- requisites
@@ -797,6 +805,8 @@ ranksep=.75; rankdir=LR;
 { "EELE 317" "EGEN 310R" } -> "EELE 488R";
 
 "BCH 442" -> "BCH 446";
-{ "M 221" "CSCI 232" } -> "CSCI 441";
 "EELE 488R" -> "EELE 489R";
+
+{ "CSCI 232" "EELE 371" } -> "CSCI 460";
+
 }
