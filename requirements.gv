@@ -78,6 +78,7 @@ digraph requirements {
 		"BCH 380"   [label="\N\nBiochemistry"];
 		"BIOB 260"  [label="\N\nCellular and\nMolecular Biology"];
 		"CHMY 513"  [label="\N\nComputational Chemistry",style=dashed];
+		"EBME 410"  [label="\N\nFundamentals of\nBioelectronics for\nBioinstrumentation",style=dashed];
 		"EMEC 424"  [label="\N\nCellular\nMechanotransduction",style=dashed];
 		"EMEC 465"  [label="\N\nBio-Inspired Engineering",style=dashed];
 		"M 221"     [label="\N\nIntro to\nLinear Algebra",style=dashed];
@@ -134,7 +135,7 @@ digraph requirements {
 	"BCH 442" -> "BCH 446";
 
 	// Electives
-	CHELECTIVES -> { "BCH 380" "BIOB 260" "CHMY 513" "EMEC 424" "EMEC 465" "M 221" }
+	CHELECTIVES -> { "BCH 380" "BIOB 260" "CHMY 513" "EBME 410" "EMEC 424" "EMEC 465" "M 221" }
 	[arrowhead=none,color=red];
 
 	COELECTIVES -> { "CSCI 232" "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446" "CSCI 451" "CSCI 460" "CSCI 466" "EELE 407" "EELE 417" "EELE 418" "EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
@@ -144,6 +145,8 @@ digraph requirements {
 	[arrowhead=none,color=green];
 
 	"EGEN 310R" -> "EMEC 465";
+
+	"M 221" -> "EBME 410";
 
 	"CSCI 232" -> { "CSCI 441" "CSCI 460" "CSCI 466" "CSCI 366" "ESOF 322" };
 	"M 221" -> "CSCI 441";
