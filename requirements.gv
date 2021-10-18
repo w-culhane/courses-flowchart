@@ -11,7 +11,6 @@ digraph requirements {
 
 {node [shape=box];
 
-	"ECHM 100"  [label="\N\nIntro to\nChemical Engineering"];
 	"EGEN 350"  [label="\N\nApplied Engineering\nData Analysis"];
 	"EBIO 438"  [label="\N\nBioprocess Engineering"];
 	"EGEN 310R" [label="\N\nMultidisciplinary\nEngineering Design"];
@@ -97,8 +96,8 @@ digraph requirements {
 	"BIOB 476R" [label="\N\nGene Construction",style=dashed];
 	}
 
-	"Chemical Engineering" -> { "CHMY 373" "EBIO 438" "ECHM 100"
-	"ECHM 323" "ECHM 328" "ECHM 407" "ECHM 411R" "ECHM 412R"
+	"Chemical Engineering" -> { "CHMY 373" "EBIO 438" "ECHM 323"
+	"ECHM 328" "ECHM 407" "ECHM 411R" "ECHM 412R"
 	"ECHM 424" "ECHM 442" "ECHM 443" "ECHM 451" "EGEN 310R"
 	"EGEN 350" "EGEN 488" CHELECTIVES }
 	[arrowhead=none,color=red];

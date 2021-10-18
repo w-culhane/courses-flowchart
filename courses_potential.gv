@@ -16,12 +16,12 @@ ranksep=.75; rankdir=LR;
 "Spring 2021"    [label="\N\n19 credits"]
 "Summer 2021"    [label="\N\n14 credits"]
 "Fall 2021"      [label="\N\n20 credits"]
-"Spring 2022"    [label="\N\n21 credits"]
-"Summer 2022"    [label="\N\n12 credits"]
-"Fall 2022"      [label="\N\n21 credits"]
-"Spring 2023"    [label="\N\n17 credits"]
-"Fall 2023"      [label="\N\n20 credits"]
-"Spring 2024"    [label="\N\n16 credits"]
+"Spring 2022"    [label="\N\n17 credits"]
+"Summer 2022"    [label="\N\n16 credits"]
+"Fall 2022"      [label="\N\n10 credits"]
+"Spring 2023"    [label="\N\n16 credits"]
+"Fall 2023"      [label="\N\n17 credits"]
+"Spring 2024"    [label="\N\n13 credits"]
 
 	{node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -31,12 +31,12 @@ ranksep=.75; rankdir=LR;
 	{ rank = same; "Spring 2021"; "M 274"; "EGEN 102"; "EELE 367"; "ECHM 201"; "CHMY 333"; }
 	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
-	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; "BIOB 260"; }
-	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "EELE 203"; "CSCI 246"; }
-	{ rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 424"; "ECHM 407"; "ECHM 100"; "CSCI 232"; "BCH 441"; }
-	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "CHMY 373"; "BCH 442"; }
-	{ rank = same; "Fall 2023"; "EMEC 424"; "EELE 488R"; "EELE 321"; "ECHM 442"; "ECHM 411R"; "CSCI 460"; "CSCI 451";}
-	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 334"; "ECHM 443"; "ECHM 412R"; "BCH 446";}
+	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 201"; "ECHM 328"; "ECHM 323"; "EBIO 438"; }
+	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "EELE 203"; "CSCI 246"; "CSCI 232"; }
+	{ rank = same; "Fall 2022"; "EELE 407"; "EELE 317"; "ECHM 424"; }
+	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "ECHM 407"; "CHMY 373"; }
+	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "ECHM 442"; "ECHM 411R"; "CSCI 460"; "CSCI 451"; }
+	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 334"; "ECHM 443"; "ECHM 412R"; }
 }
 
 // Honors classes
@@ -356,7 +356,7 @@ ranksep=.75; rankdir=LR;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S</TD>
+<TD>F S Su</TD>
 <TD>4</TD>
 </TR>
 <TR><TD COLSPAN="3">Advanced Data Structures and Algorithms</TD></TR>
@@ -366,7 +366,7 @@ ranksep=.75; rankdir=LR;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S</TD>
+<TD>F S Su</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Discrete Structures</TD></TR>
@@ -376,7 +376,7 @@ ranksep=.75; rankdir=LR;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S</TD>
+<TD>F S Su</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Multidisciplinary Engineering Design</TD></TR>
@@ -390,16 +390,6 @@ ranksep=.75; rankdir=LR;
 <TD>2</TD>
 </TR>
 <TR><TD COLSPAN="3">Applied Engineering Data Analysis</TD></TR>
-</TABLE>>];
-
-"BIOB 260" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>F S</TD>
-<TD>4</TD>
-</TR>
-<TR><TD COLSPAN="3">Cellular and Molecular Biology</TD></TR>
 </TABLE>>];
 
 "EBIO 438" [label=<
@@ -426,7 +416,7 @@ ranksep=.75; rankdir=LR;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>S</TD>
+<TD>F S</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Reactor Design</TD></TR>
@@ -462,21 +452,11 @@ ranksep=.75; rankdir=LR;
 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
 </TABLE>>];
 
-"BCH 441" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>F</TD>
-<TD>3</TD>
-</TR>
-<TR><TD COLSPAN="3">Biochemistry of Macromolecules</TD></TR>
-</TABLE>>];
-
 "ECHM 407" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F</TD>
+<TD>F S</TD>
 <TD>2</TD>
 </TR>
 <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
@@ -532,16 +512,6 @@ ranksep=.75; rankdir=LR;
 <TR><TD COLSPAN="3">Intro to Microfabrication</TD></TR>
 </TABLE>>];
 
-"BCH 442" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>S</TD>
-<TD>3</TD>
-</TR>
-<TR><TD COLSPAN="3">Metabolic Regulation</TD></TR>
-</TABLE>>];
-
 "CHMY 373" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
@@ -550,16 +520,6 @@ ranksep=.75; rankdir=LR;
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Physical Chemistry 2</TD></TR>
-</TABLE>>];
-
-"ECHM 100" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" COLOR="red">
-<TR>
-<TD>\N</TD>
-<TD>F</TD>
-<TD>2</TD>
-</TR>
-<TR><TD COLSPAN="3">Intro to Chemical Engineering</TD></TR>
 </TABLE>>];
 
 "ECHM 412R" [label=<
@@ -652,16 +612,6 @@ ranksep=.75; rankdir=LR;
 <TR><TD COLSPAN="3">Electrical Engineering Design 1</TD></TR>
 </TABLE>>];
 
-"BCH 446" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>S</TD>
-<TD>3</TD>
-</TR>
-<TR><TD COLSPAN="3">Metabolomics and Systems Biology</TD></TR>
-</TABLE>>];
-
 "EELE 489R" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
@@ -690,16 +640,6 @@ ranksep=.75; rankdir=LR;
 <TD>0</TD>
 </TR>
 <TR><TD COLSPAN="3">FE Exam</TD></TR>
-</TABLE>>];
-
-"EMEC 424" [label=<
-<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR>
-<TD>\N</TD>
-<TD>F</TD>
-<TD>3</TD>
-</TR>
-<TR><TD COLSPAN="3">Cellular Mechanotransduction</TD></TR>
 </TABLE>>];
 
 "CSCI 460" [label=<
@@ -752,7 +692,6 @@ ranksep=.75; rankdir=LR;
 "CSCI 132" -> "CSCI 246" [style=dashed];
 "M 182Q" -> "EGEN 350";
 
-{ "CHMY 151" "M 181Q" } -> "BIOB 260";
 { "ECHM 201" "M 274" } -> { "EBIO 438" "ECHM 328" };
 { "ECHM 307" "ECHM 322" } -> "ECHM 323";
 { "EELE 101" "M 182Q" } -> "EELE 201";
@@ -761,7 +700,6 @@ ranksep=.75; rankdir=LR;
 
 { "EELE 201" "M 274" } -> "EELE 203";
 
-{ "BIOB 260" "CHMY 333" } -> "BCH 441";
 { "ECHM 307" "ECHM 323" "ECHM 328" } -> "ECHM 407";
 { "ECHM 321" "ECHM 322" "ECHM 323" "ECHM 328" } -> "ECHM 411R";
 { "ECHM 323" "M 273Q" "M 274" } -> "ECHM 424";
@@ -770,7 +708,6 @@ ranksep=.75; rankdir=LR;
 "EELE 203" -> "EELE 317";
 "PHSX 222" -> "EELE 407";
 
-"BCH 441" -> "BCH 442";
 "M 273Q" -> "CHMY 373";
 "ECHM 411R" -> "ECHM 412R";
 "ECHM 442" -> "ECHM 443";
@@ -783,7 +720,6 @@ ranksep=.75; rankdir=LR;
 { "PHSX 222" "M 273Q" } -> "EELE 334";
 { "EELE 317" "EGEN 310R" } -> "EELE 488R";
 
-"BCH 442" -> "BCH 446";
 "EELE 488R" -> "EELE 489R";
 
 { "CSCI 232" "EELE 371" } -> "CSCI 460";
