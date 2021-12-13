@@ -12,9 +12,7 @@ digraph requirements {
 {node [shape=box];
 
 	"EGEN 350"  [label="\N\nApplied Engineering\nData Analysis"];
-	"EBIO 438"  [label="\N\nBioprocess Engineering"];
 	"EGEN 310R" [label="\N\nMultidisciplinary\nEngineering Design"];
-	"ECHM 323"  [label="\N\nMass Transfer\nOperations"];
 	"ECHM 328"  [label="\N\nReactor Design"];
 	"ECHM 411R" [label="\N\nChemical Engineering\nDesign 1"];
 	"ECHM 442"  [label="\N\nChemical Engineering\nLab 1"];
@@ -22,11 +20,9 @@ digraph requirements {
 	"ECHM 424"  [label="\N\nTransport Analysis"];
 	"ECHM 412R" [label="\N\nChemical Engineering\nDesign 2"];
 	"ECHM 451"  [label="\N\nProcess Dynamics\nand Control"];
-	"CHMY 373"  [label="\N\nPhysical Chemistry:\nKinetics and Thermodynamics"];
 	"EGEN 488"  [label="\N\nFundamentals of\nEngineering Exam"];
 	"ECHM 443"  [label="\N\nChemical Engineering\nLab 2"];
 
-	"EELE 201"  [label="\N\nCircuits 1"];
 	"EELE 203"  [label="\N\nCircuits 2"];
 	"EELE 308"  [label="\N\nSignals and\nSystems Analysis"];
 	"EELE 317"  [label="\N\nElectronics"];
@@ -35,7 +31,6 @@ digraph requirements {
 	"EELE 321"  [label="\N\nIntro to\nFeedback Controls"];
 	"EELE 334"  [label="\N\nElectromagnetic Theory 1"];
 	"EELE 488R" [label="\N\nElectrical Engineering\nDesign 1"];
-	"EELE 468"  [label="\N\nSoC FPGAs 2:\nCustom Computing"];
 	"EELE 489R" [label="\N\nElectrical Engineering\nDesign 2"];
 	"EELE 487"  [label="\N\nEthics"];
 
@@ -46,7 +41,7 @@ digraph requirements {
 	subgraph cluster_coelectives {
 		bgcolor=grey98;
 
-		COELECTIVES [label="Electives\n12 cred.",shape=diamond,color=blue]
+		COELECTIVES [label="Electives\n9 cred.",shape=diamond,color=blue]
 
 		"CSCI 232"  [label="\N\nAdvanced Data Structures\nand Algorithms",style=dashed];
 		"CSCI 441"  [label="\N\nComputer Graphics",style=dashed];
@@ -96,31 +91,28 @@ digraph requirements {
 	"BIOB 476R" [label="\N\nGene Construction",style=dashed];
 	}
 
-	"Chemical Engineering" -> { "CHMY 373" "EBIO 438" "ECHM 323"
-	"ECHM 328" "ECHM 407" "ECHM 411R" "ECHM 412R"
-	"ECHM 424" "ECHM 442" "ECHM 443" "ECHM 451" "EGEN 310R"
-	"EGEN 350" "EGEN 488" CHELECTIVES }
+	"Chemical Engineering" -> { "ECHM 328" "ECHM 407" "ECHM 411R"
+	"ECHM 412R" "ECHM 424" "ECHM 442" "ECHM 443" "ECHM 451"
+	"EGEN 310R" "EGEN 350" "EGEN 488" CHELECTIVES }
 	[arrowhead=none,color=red];
 
-	"Computer Engineering" -> { "CSCI 246" "EELE 201" "EELE 203"
-	"EELE 308" "EELE 317" "EELE 321" "EELE 334" "EELE 465"
-	"EELE 468" "EELE 487" "EELE 488R" "EELE 489R" "EGEN 310R"
-	"EGEN 350" "EGEN 488" COELECTIVES }
+	"Computer Engineering" -> { "CSCI 246" "EELE 203" "EELE 308"
+	"EELE 317" "EELE 321" "EELE 334" "EELE 465" "EELE 487"
+	"EELE 488R" "EELE 489R" "EGEN 310R" "EGEN 350" "EGEN 488"
+	COELECTIVES }
 	[arrowhead=none,color=blue];
 
 	"Biochemistry minor" -> { "BCH 381" "BCH 441" "BCH 442"
 	BCELECTIVES }
 	[arrowhead=none,color=green];
 
-	"ECHM 323" -> "ECHM 424";
-	{ "ECHM 323" "ECHM 328"} -> { "ECHM 407" "ECHM 411R" "ECHM 451" };
-	{ "ECHM 323" "EGEN 350" } -> "ECHM 442";
+	"ECHM 328" -> { "ECHM 407" "ECHM 411R" "ECHM 451" };
+	"EGEN 350" -> "ECHM 442";
 	"EGEN 310R" -> "ECHM 411R"
 	[style=dashed];
 	"ECHM 411R" -> "ECHM 412R";
 	"ECHM 442" -> "ECHM 443";
 
-	"EELE 201" -> "EELE 203";
 	"EELE 203" -> { "EELE 308" "EELE 317" "EELE 321" };
 	{ "EELE 317" "EGEN 310R" } -> "EELE 488R";
 	"EELE 488R" -> "EELE 489R";
