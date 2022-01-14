@@ -1,5 +1,5 @@
 digraph potential {
-ranksep=.75; rankdir=LR;
+ranksep=.75; rankdir=LR; splines=ortho;
 
 {node [shape=plaintext,fontsize=16];
 	"Fall 2019" -> "Spring 2020"
@@ -18,10 +18,10 @@ ranksep=.75; rankdir=LR;
 "Fall 2021"      [label="\N\n20 credits"]
 "Spring 2022"    [label="\N\n20 credits"]
 "Summer 2022"    [label="\N\n16 credits"]
-"Fall 2022"      [label="\N\n10 credits"]
-"Spring 2023"    [label="\N\n13 credits"]
-"Fall 2023"      [label="\N\n17 credits"]
-"Spring 2024"    [label="\N\n13 credits"]
+"Fall 2022"      [label="\N\n16 credits"]
+"Spring 2023"    [label="\N\n19 credits"]
+"Fall 2023"      [label="\N\n11 credits"]
+"Spring 2024"    [label="\N\n10 credits"]
 
 	{node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -33,10 +33,10 @@ ranksep=.75; rankdir=LR;
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
 	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "EELE 203"; "CSCI 246"; "CSCI 232"; }
-	{ rank = same; "Fall 2022"; "ECHM 328"; "EELE 317"; "ECHM 424"; }
-	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "ECHM 407"; }
-	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "ECHM 442"; "ECHM 411R"; "CSCI 460"; "CSCI 451"; }
-	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 334"; "ECHM 443"; "ECHM 412R"; }
+	{ rank = same; "Fall 2022"; "EELE 317"; "ECHM 442"; "ECHM 424"; "ECHM 411R"; "ECHM 328"; }
+	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "ECHM 443"; "ECHM 412R"; "ECHM 407"; }
+	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "CSCI 460"; "CSCI 451"; }
+	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 334"; }
 }
 
 // Honors classes
@@ -602,6 +602,16 @@ ranksep=.75; rankdir=LR;
 <TR><TD COLSPAN="3">Electromagnetic Theory 1</TD></TR>
 </TABLE>>];
 
+"EELE 484" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>S</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Laser Engineering</TD></TR>
+</TABLE>>];
+
 "EELE 488R" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
@@ -723,5 +733,6 @@ ranksep=.75; rankdir=LR;
 "EELE 488R" -> "EELE 489R";
 
 { "CSCI 232" "EELE 371" } -> "CSCI 460";
+"PHSX 222" -> "EELE 484";
 
 }

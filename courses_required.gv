@@ -1,4 +1,5 @@
 digraph requirements {
+splines=ortho;
 
 {node [shape=box];
 	{rank=same;
