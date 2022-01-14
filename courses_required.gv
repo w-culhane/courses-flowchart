@@ -5,7 +5,7 @@ splines=ortho;
 	{rank=same;
 		"Computer Engineering" ->
 		"Chemical Engineering" ->
-		"Biochemistry minor"
+		"Biochemistry Minor"
 		[arrowhead=none,color=invis];
 	}
 }
@@ -70,7 +70,6 @@ splines=ortho;
 
 		CHELECTIVES [label="Electives\n11 cred.",shape=diamond,color=red]
 
-		"BCH 380"   [label="\N\nBiochemistry"];
 		"BIOB 260"  [label="\N\nCellular and\nMolecular Biology"];
 		"CHMY 513"  [label="\N\nComputational Chemistry",style=dashed];
 		"EBME 410"  [label="\N\nFundamentals of\nBioelectronics for\nBioinstrumentation",style=dashed];
@@ -89,7 +88,6 @@ splines=ortho;
 		"CHMY 417"  [label="\N\nSynthetic\nChemistry",style=dashed];
 	}
 
-	"BIOB 476R" [label="\N\nGene Construction",style=dashed];
 	}
 
 	"Chemical Engineering" -> { "ECHM 328" "ECHM 407" "ECHM 411R"
@@ -103,7 +101,7 @@ splines=ortho;
 	COELECTIVES }
 	[arrowhead=none,color=blue];
 
-	"Biochemistry minor" -> { "BCH 381" "BCH 441" "BCH 442"
+	"Biochemistry Minor" -> { "BCH 381" "BCH 441" "BCH 442"
 	BCELECTIVES }
 	[arrowhead=none,color=green];
 
@@ -119,15 +117,14 @@ splines=ortho;
 	"EELE 488R" -> "EELE 489R";
 	COELECTIVES;
 
-	"BIOB 260" -> "BCH 380";
-	"BCH 380" -> "BCH 381" [style=dashed];
-	"BCH 381" -> "BCH 380" [style=dashed];
+	"BCH 381" -> "BCH 441" [style=dashed];
+	"BCH 441" -> "BCH 381" [style=dashed];
 	"BIOB 260" -> "BCH 441";
-	"BCH 441" -> "BCH 442";
-	"BCH 442" -> "BCH 446";
+	"BIOB 260" -> "BCH 442";
+	{ "BCH 441" "BCH 442" } -> "BCH 446";
 
 	// Electives
-	CHELECTIVES -> { "BCH 380" "BIOB 260" "CHMY 513" "EBME 410" "EMEC 424" "EMEC 465" "M 221" }
+	CHELECTIVES -> { "BIOB 260" "CHMY 513" "EBME 410" "EMEC 424" "EMEC 465" "M 221" }
 	[arrowhead=none,color=red];
 
 	COELECTIVES -> { "CSCI 232" "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446" "CSCI 451" "CSCI 460" "CSCI 466" "EELE 407" "EELE 417" "EELE 418" "EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
@@ -157,6 +154,4 @@ splines=ortho;
 	[style=dotted];
 	{ "ESOF 322" "M 221" "STAT 216Q" } -> "CSCI 447"
 	[style=dotted];
-
-	{ "BCH 380" "BCH 441" } -> "BIOB 476R";
 }
