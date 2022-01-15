@@ -1,5 +1,5 @@
 digraph current {
-ranksep=.75; rankdir=LR;
+ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 
 {node [shape=plaintext,fontsize=16];
 	"Fall 2019" -> "Spring 2020"

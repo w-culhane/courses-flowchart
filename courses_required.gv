@@ -1,5 +1,5 @@
 digraph requirements {
-splines=ortho;
+concentrate=true; splines=ortho;
 
 {node [shape=box];
 	{rank=same;
