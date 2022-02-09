@@ -16,7 +16,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 "Spring 2021"    [label="\N\n19 credits"]
 "Summer 2021"    [label="\N\n14 credits"]
 "Fall 2021"      [label="\N\n20 credits"]
-"Spring 2022"    [label="\N\n20 credits"]
+"Spring 2022"    [label="\N\n21 credits"]
 "Summer 2022"    [label="\N\n16 credits"]
 "Fall 2022"      [label="\N\n16 credits"]
 "Spring 2023"    [label="\N\n19 credits"]
@@ -31,7 +31,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 	{ rank = same; "Spring 2021"; "M 274"; "EGEN 102"; "EELE 367"; "ECHM 201"; "CHMY 333"; }
 	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
-	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
+	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 490R"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
 	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "EELE 203"; "CSCI 246"; "CSCI 232"; }
 	{ rank = same; "Fall 2022"; "EELE 317"; "ECHM 442"; "ECHM 424"; "ECHM 411R"; "ECHM 328"; }
 	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "ECHM 443"; "ECHM 412R"; "ECHM 407"; }
@@ -420,6 +420,16 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Reactor Design</TD></TR>
+</TABLE>>];
+
+"ECHM 490R" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>CBB 224</TD>
+<TD>1</TD>
+</TR>
+<TR><TD COLSPAN="3">Undergraduate Research</TD></TR>
 </TABLE>>];
 
 "EELE 201" [label=<
