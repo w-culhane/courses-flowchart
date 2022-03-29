@@ -6,7 +6,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 	-> "Fall 2020" -> "Winter 2020-21" -> "Spring 2021"
 	-> "Summer 2021" -> "Fall 2021" -> "Spring 2022"
 	-> "Summer 2022" -> "Fall 2022" -> "Spring 2023"
-	-> "Fall 2023" -> "Spring 2024";
+	-> "Summer 2023" -> "Fall 2023" -> "Spring 2024";
 }
 
 "Fall 2019"      [label="\N\n15 credits"]
@@ -17,11 +17,12 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 "Summer 2021"    [label="\N\n14 credits"]
 "Fall 2021"      [label="\N\n20 credits"]
 "Spring 2022"    [label="\N\n21 credits"]
-"Summer 2022"    [label="\N\n16 credits"]
-"Fall 2022"      [label="\N\n16 credits"]
+"Summer 2022"    [label="\N\n9 credits"]
+"Fall 2022"      [label="\N\n19 credits"]
 "Spring 2023"    [label="\N\n19 credits"]
+"Summer 2023"    [label="\N\n3 credits"]
 "Fall 2023"      [label="\N\n11 credits"]
-"Spring 2024"    [label="\N\n10 credits"]
+"Spring 2024"    [label="\N\n14 credits"]
 
 	{node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -32,11 +33,12 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 490R"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
-	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "EELE 203"; "CSCI 246"; "CSCI 232"; }
-	{ rank = same; "Fall 2022"; "EELE 317"; "ECHM 442"; "ECHM 424"; "ECHM 411R"; "ECHM 328"; }
-	{ rank = same; "Spring 2023"; "EELE 465"; "EELE 308"; "ECHM 451"; "ECHM 443"; "ECHM 412R"; "ECHM 407"; }
-	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "CSCI 460"; "CSCI 451"; }
-	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 334"; }
+	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "CSCI 232"; }
+	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
+	{ rank = same; "Spring 2023"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; "ECHM 407"; }
+	{ rank = same; "Summer 2023"; "CSCI 246"; }
+	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "CSCI 451"; }
+	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "EELE 334"; }
 }
 
 // Honors classes
