@@ -12,19 +12,12 @@ concentrate=true; splines=ortho;
 
 {node [shape=box];
 
-	"EGEN 350"  [label="\N\nApplied Engineering\nData Analysis"];
-	"EGEN 310R" [label="\N\nMultidisciplinary\nEngineering Design"];
-	"ECHM 328"  [label="\N\nReactor Design"];
-	"ECHM 411R" [label="\N\nChemical Engineering\nDesign 1"];
-	"ECHM 442"  [label="\N\nChemical Engineering\nLab 1"];
 	"ECHM 407"  [label="\N\nThermodynamics 2"];
 	"ECHM 424"  [label="\N\nTransport Analysis"];
 	"ECHM 412R" [label="\N\nChemical Engineering\nDesign 2"];
-	"ECHM 451"  [label="\N\nProcess Dynamics\nand Control"];
 	"EGEN 488"  [label="\N\nFundamentals of\nEngineering Exam"];
 	"ECHM 443"  [label="\N\nChemical Engineering\nLab 2"];
 
-	"EELE 203"  [label="\N\nCircuits 2"];
 	"EELE 308"  [label="\N\nSignals and\nSystems Analysis"];
 	"EELE 317"  [label="\N\nElectronics"];
 	"CSCI 246"  [label="\N\nDiscrete Structures"];
@@ -42,14 +35,12 @@ concentrate=true; splines=ortho;
 	subgraph cluster_coelectives {
 		bgcolor=grey98;
 
-		COELECTIVES [label="Electives\n9 cred.",shape=diamond,color=blue]
+		COELECTIVES [label="Electives",shape=diamond,color=blue]
 
-		"CSCI 232"  [label="\N\nAdvanced Data Structures\nand Algorithms",style=dashed];
 		"CSCI 441"  [label="\N\nComputer Graphics",style=dashed];
 		"CSCI 446"  [label="\N\nArtificial Intelligence",style=dashed];
 		"CSCI 447"  [label="\N\nMachine Learning:\nSoft Computing",style=dashed];
 		"CSCI 451"  [label="\N\nComputational Biology",style=dashed];
-		"CSCI 460"  [label="\N\nOperating Systems",style=dashed];
 		"CSCI 466"  [label="\N\nNetworks",style=dashed];
 
 		"EELE 407"  [label="\N\nIntro to\nMicrofabrication",style=dashed];
@@ -68,7 +59,7 @@ concentrate=true; splines=ortho;
 	subgraph cluster_chelectives {
 		bgcolor=grey98;
 
-		CHELECTIVES [label="Electives\n11 cred.",shape=diamond,color=red]
+		CHELECTIVES [label="Electives",shape=diamond,color=red]
 
 		"BIOB 260"  [label="\N\nCellular and\nMolecular Biology"];
 		"CHMY 513"  [label="\N\nComputational Chemistry",style=dashed];
@@ -90,30 +81,20 @@ concentrate=true; splines=ortho;
 
 	}
 
-	"Chemical Engineering" -> { "ECHM 328" "ECHM 407" "ECHM 411R"
-	"ECHM 412R" "ECHM 424" "ECHM 442" "ECHM 443" "ECHM 451"
-	"EGEN 310R" "EGEN 350" "EGEN 488" CHELECTIVES }
+	"Chemical Engineering" -> { "ECHM 407" "ECHM 412R" "ECHM 424"
+	"ECHM 443" "EGEN 488" CHELECTIVES }
 	[arrowhead=none,color=red];
 
-	"Computer Engineering" -> { "CSCI 246" "EELE 203" "EELE 308"
+	"Computer Engineering" -> { "CSCI 246" "EELE 308"
 	"EELE 317" "EELE 321" "EELE 334" "EELE 465" "EELE 487"
-	"EELE 488R" "EELE 489R" "EGEN 310R" "EGEN 350" "EGEN 488"
-	COELECTIVES }
+	"EELE 488R" "EELE 489R" "EGEN 488" COELECTIVES }
 	[arrowhead=none,color=blue];
 
 	"Biochemistry Minor" -> { "BCH 381" "BCH 441" "BCH 442"
 	BCELECTIVES }
 	[arrowhead=none,color=green];
 
-	"ECHM 328" -> { "ECHM 407" "ECHM 411R" "ECHM 451" };
-	"EGEN 350" -> "ECHM 442";
-	"EGEN 310R" -> "ECHM 411R"
-	[style=dashed];
-	"ECHM 411R" -> "ECHM 412R";
-	"ECHM 442" -> "ECHM 443";
-
-	"EELE 203" -> { "EELE 308" "EELE 317" "EELE 321" };
-	{ "EELE 317" "EGEN 310R" } -> "EELE 488R";
+	"EELE 317" -> "EELE 488R";
 	"EELE 488R" -> "EELE 489R";
 	COELECTIVES;
 
@@ -125,29 +106,21 @@ concentrate=true; splines=ortho;
 
 	// Electives
 	CHELECTIVES -> { "BIOB 260" "CHMY 513" "EBME 410" "EMEC 424" "EMEC 465" "M 221" }
-	[arrowhead=none,color=red];
+	[arrowhead=none,color=orange];
 
-	COELECTIVES -> { "CSCI 232" "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446" "CSCI 451" "CSCI 460" "CSCI 466" "EELE 407" "EELE 417" "EELE 418" "EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
-	[arrowhead=none,color=blue];
+	COELECTIVES -> { "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446" "CSCI 451" "CSCI 466" "EELE 407" "EELE 417" "EELE 418" "EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
+	[arrowhead=none,color=purple];
 
 	BCELECTIVES -> { "BCH 446" "BCH 450" "CHMY 417" }
-	[arrowhead=none,color=green];
-
-	"EGEN 310R" -> "EMEC 465";
+	[arrowhead=none,color=pink];
 
 	"M 221" -> "EBME 410";
 
-	"CSCI 232" -> { "CSCI 441" "CSCI 460" "CSCI 466" "CSCI 366" "ESOF 322" };
 	"M 221" -> "CSCI 441";
-	{ "CSCI 232" "CSCI 246" } -> { "CSCI 446" "CSCI 447" "CSCI 451" };
-	{ "EELE 308" "EELE 317" } -> "EELE 445"
-	"CSCI 232" -> "CSCI 351"
+	"CSCI 246" -> { "CSCI 446" "CSCI 447" "CSCI 451" };
+	{ "EELE 308" "EELE 317" } -> "EELE 445";
 	"EELE 445" -> "EELE 447";
 
-	"CSCI 246" -> "CSCI 232"
-	[style=dotted];
-	"CSCI 351" -> "CSCI 460"
-	[style=dotted];
 	"CSCI 366" -> "CSCI 466"
 	[style=dotted];
 	{ "ESOF 322" "STAT 216Q" } -> "CSCI 446"

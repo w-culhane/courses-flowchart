@@ -4,7 +4,8 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 {node [shape=plaintext,fontsize=16];
 	"Fall 2019" -> "Spring 2020"
 	-> "Fall 2020" -> "Winter 2020-21" -> "Spring 2021" -> "Summer 2021"
-	-> "Fall 2021" -> "Spring 2022";
+	-> "Fall 2021" -> "Spring 2022" -> "Summer 2022"
+	-> "Fall 2022";
 }
 
 "Fall 2019"      [label="\N\n15 credits"]
@@ -15,6 +16,8 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 "Summer 2021"    [label="\N\n14 credits"]
 "Fall 2021"      [label="\N\n20 credits"]
 "Spring 2022"    [label="\N\n21 credits"]
+"Summer 2022"    [label="\N\n9 credits"]
+"Fall 2022"      [label="\N\n19 credits"]
 
 {node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -25,6 +28,8 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 	{ rank = same; "Summer 2021"; "EMAT 251"; "EELE 371"; "CSCI 132"; "CSCI 112"; }
 	{ rank = same; "Fall 2021"; "EELE 467"; "EELE 101"; "ECNS 251IS"; "ECHM 322"; "ECHM 321"; "ECHM 307"; }
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 490R"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
+	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "CSCI 232"; }
+	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
 }
 
 // Honors classes
@@ -417,6 +422,96 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TR><TD COLSPAN="3">Undergraduate Research</TD></TR>
 </TABLE>>];
 
+"CSCI 232" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>ROBERT 201</TD>
+<TD>4</TD>
+</TR>
+<TR><TD COLSPAN="3">Data Structures and Algorithms</TD></TR>
+</TABLE>>];
+
+"EGEN 310R" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>WEB</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Multidisciplinary Engineering Design</TD></TR>
+</TABLE>>];
+
+"EGEN 350" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>WEB</TD>
+<TD>2</TD>
+</TR>
+<TR><TD COLSPAN="3">Applied Engineering Data Analysis</TD></TR>
+</TABLE>>];
+
+"CSCI 460" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>BARNAR 108</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Operating Systems</TD></TR>
+</TABLE>>];
+
+"ECHM 328" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>NAH 153</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Reactor Design</TD></TR>
+</TABLE>>];
+
+"ECHM 411R" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>ROMNEY 211</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Chemical Engineering Design 1</TD></TR>
+</TABLE>>];
+
+"ECHM 442" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>REID 103</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
+</TABLE>>];
+
+"ECHM 451" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>BARNAR 126</TD>
+<TD>3</TD>
+</TR>
+<TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
+</TABLE>>];
+
+"EELE 203" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>\N</TD>
+<TD>NAH 153</TD>
+<TD>4</TD>
+</TR>
+<TR><TD COLSPAN="3">Circuits 2</TD></TR>
+</TABLE>>];
+
 // Course pre- & co- requisites
 
 // Spring 2020
@@ -465,4 +560,17 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 { "EELE 101" "M 182Q" } -> "EELE 201";
 "PHSX 222" -> "EELE 408";
 "EELE 467" -> "EELE 468";
+
+// Summer 2022
+"CSCI 132" -> "CSCI 232";
+"M 182Q" -> "EGEN 350";
+
+// Fall 2022
+{ "CSCI 232" "EELE 371" } -> "CSCI 460";
+{ "ECHM 201" "M 274" } -> "ECHM 328";
+{"ECHM 321" "ECHM 322" "ECHM 323" "ECHM 328"} -> "ECHM 411R";
+"EGEN 310R" -> "ECHM 411R" [style=dashed];
+{ "ECHM 323" "EGEN 350" } -> "ECHM 442";
+{ "EBIO 438" "M 274" } -> "ECHM 451";
+{ "EELE 201" "M 274" } -> "EELE 203";
 }

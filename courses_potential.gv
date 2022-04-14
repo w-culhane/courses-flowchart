@@ -358,7 +358,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S Su</TD>
+<TD>ROBERT 201</TD>
 <TD>4</TD>
 </TR>
 <TR><TD COLSPAN="3">Advanced Data Structures and Algorithms</TD></TR>
@@ -378,7 +378,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S Su</TD>
+<TD>WEB</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Multidisciplinary Engineering Design</TD></TR>
@@ -388,7 +388,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S Su</TD>
+<TD>WEB</TD>
 <TD>2</TD>
 </TR>
 <TR><TD COLSPAN="3">Applied Engineering Data Analysis</TD></TR>
@@ -418,7 +418,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S</TD>
+<TD>NAH 153</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Reactor Design</TD></TR>
@@ -458,7 +458,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F S Su</TD>
+<TD>NAH 153</TD>
 <TD>4</TD>
 </TR>
 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
@@ -488,7 +488,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F</TD>
+<TD>ROMNEY 211</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Chemical Engineering Design 1</TD></TR>
@@ -498,7 +498,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F</TD>
+<TD>REID 103</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
@@ -558,7 +558,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>S</TD>
+<TD>BARNAR 126</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
@@ -668,7 +668,7 @@ ranksep=.75; rankdir=LR; concentrate=true; splines=ortho;
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 <TR>
 <TD>\N</TD>
-<TD>F</TD>
+<TD>BARNAR 108</TD>
 <TD>3</TD>
 </TR>
 <TR><TD COLSPAN="3">Operating Systems</TD></TR>
