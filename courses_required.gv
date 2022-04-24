@@ -104,10 +104,13 @@ digraph requirements {
     { "BCH 441" "BCH 442" } -> "BCH 446";
 
     // Electives
-    CHELECTIVES -> { "BIOB 260" "CHMY 513" "EBME 410" "EMEC 424" "EMEC 465" "M 221" }
+    CHELECTIVES -> { "BIOB 260" "CHMY 513" "EBME 410" "EMEC 424"
+	"EMEC 465" "M 221" }
     [arrowhead=none,color=orange];
 
-    COELECTIVES -> { "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446" "CSCI 451" "CSCI 466" "EELE 407" "EELE 417" "EELE 418" "EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
+    COELECTIVES -> { "CSCI 351" "CSCI 366" "CSCI 441" "CSCI 446"
+	"CSCI 451" "CSCI 466" "EELE 407" "EELE 417" "EELE 418"
+	"EELE 445" "EELE 447" "EELE 484" "ESOF 322" }
     [arrowhead=none,color=purple];
 
     BCELECTIVES -> { "BCH 446" "BCH 450" "CHMY 417" }
