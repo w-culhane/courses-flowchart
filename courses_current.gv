@@ -40,7 +40,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>CHEEVE 214</TD>
+		<TD>R. Szilagyi/J. Broderick</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Honors Chemistry 1</TD></TR>
@@ -50,7 +50,7 @@ digraph current {
 		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		  <TR>
 		  <TD>\N</TD>
-		  <TD>NAH 321</TD>
+		  <TD>M. Lomakina</TD>
 		  <TD>4</TD>
 		  </TR>
 		  <TR><TD COLSPAN="3">Texts and Critics 1</TD></TR>
@@ -60,7 +60,7 @@ digraph current {
 	      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 	      <TR>
 	      <TD>\N</TD>
-	      <TD>WILSON 1130</TD>
+	      <TD>J. Lund</TD>
 	      <TD>4</TD>
 	      </TR>
 	      <TR><TD COLSPAN="3">Honors Calculus 1</TD></TR>
@@ -70,7 +70,7 @@ digraph current {
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
-		 <TD>CHEEVE 214</TD>
+		 <TD>P. Gomez</TD>
 		 <TD>3</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Elementary Spanish 2</TD></TR>
@@ -82,7 +82,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>GAINES 243</TD>
+		<TD>W. Steel</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Honors Chemistry 2</TD></TR>
@@ -92,7 +92,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>D. DeFrance</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Web Design</TD></TR>
@@ -102,7 +102,7 @@ digraph current {
 		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		  <TR>
 		  <TD>\N</TD>
-		  <TD>NAH 321</TD>
+		  <TD>L. Rus-Ogilvie</TD>
 		  <TD>4</TD>
 		  </TR>
 		  <TR><TD COLSPAN="3">Texts and Critics 2</TD></TR>
@@ -112,7 +112,7 @@ digraph current {
 	      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 	      <TR>
 	      <TD>\N</TD>
-	      <TD>WILSON 1148</TD>
+	      <TD>J. Markman</TD>
 	      <TD>4</TD>
 	      </TR>
 	      <TR><TD COLSPAN="3">Honors Calculus 2</TD></TR>
@@ -122,7 +122,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>BARNAR 103</TD>
+		<TD>N. Childs</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Physics 1 (with Calculus)</TD></TR>
@@ -134,7 +134,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>J. Klassen</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Fundamental Analytical Chemistry</TD></TR>
@@ -144,7 +144,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>CHEEVE 215</TD>
+		<TD>M. Cloninger</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Honors Organic Chemistry 1</TD></TR>
@@ -154,7 +154,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>A. Kunze</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Intro to Logic Circuits</TD></TR>
@@ -164,7 +164,7 @@ digraph current {
 	      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 	      <TR>
 	      <TD>\N</TD>
-	      <TD>TRAP 308</TD>
+	      <TD>J. Antonioli</TD>
 	      <TD>4</TD>
 	      </TR>
 	      <TR><TD COLSPAN="3">Multivariable Calculus</TD></TR>
@@ -174,7 +174,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>N. Childs</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Physics 2 (with Calculus)</TD></TR>
@@ -186,7 +186,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>R. Pearsall</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Joy and Beauty of Data</TD></TR>
@@ -198,7 +198,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>LIN 234</TD>
+		<TD>M. Cook</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Honors Organic Chemistry 2</TD></TR>
@@ -208,7 +208,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>NAH 201</TD>
+		<TD>C. Chang</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Principles of Chemical Engineering</TD></TR>
@@ -218,7 +218,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>B. LaMeres</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Logic Design</TD></TR>
@@ -228,7 +228,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>J. Heys</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Intro to Engineering Computations</TD></TR>
@@ -238,7 +238,7 @@ digraph current {
 	     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 	     <TR>
 	     <TD>\N</TD>
-	     <TD>WILSON 1142</TD>
+	     <TD>K. Nordby</TD>
 	     <TD>4</TD>
 	     </TR>
 	     <TR><TD COLSPAN="3">Intro to Differential Equations</TD></TR>
@@ -250,7 +250,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>L. Williams</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Programming with C</TD></TR>
@@ -260,7 +260,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>F. Rehman</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Basic Data Structures and Algorithms</TD></TR>
@@ -270,7 +270,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>B. LaMeres</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Microprocessor HW/SW Systems</TD></TR>
@@ -280,7 +280,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>J. Menicucci</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Materials Structures and Properties</TD></TR>
@@ -292,7 +292,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>LEWIS 304</TD>
+		<TD>J. Menicucci</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Thermodynamics 1</TD></TR>
@@ -302,7 +302,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>GAINES 143</TD>
+		<TD>J. Brown</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Fluid Mechanics Operations</TD></TR>
@@ -312,7 +312,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>REID 103</TD>
+		<TD>L. Schultz</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Heat Transfer Operations</TD></TR>
@@ -322,7 +322,7 @@ digraph current {
 		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		  <TR>
 		  <TD>\N</TD>
-		  <TD>LIN 234</TD>
+		  <TD>G. Gilpin</TD>
 		  <TD>4</TD>
 		  </TR>
 		  <TR><TD COLSPAN="3">Honors Economics</TD></TR>
@@ -332,7 +332,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>NAH 165</TD>
+		<TD>B. LaMeres</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Intro to Electrical Fundamentals</TD></TR>
@@ -342,7 +342,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>NAH 337</TD>
+		<TD>R. Snider</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">SoC FPGAs 1: HW/SW Codesign</TD></TR>
@@ -354,7 +354,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>NAH 165</TD>
+		<TD>M. Mosquera Tabares</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Physical Chemistry 2</TD></TR>
@@ -364,7 +364,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>ROBERT 101</TD>
+		<TD>R. Carlson</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Bioprocess Engineering</TD></TR>
@@ -374,7 +374,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>LJH 346</TD>
+		<TD>S. Wettstein</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Mass Transfer Operations</TD></TR>
@@ -384,7 +384,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>ROBERT 113</TD>
+		<TD>J. Becker</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Circuits 1</TD></TR>
@@ -394,7 +394,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>ROBERT 319</TD>
+		<TD>T. Kaiser</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Photovoltaic Systems</TD></TR>
@@ -404,7 +404,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>COBLEI 620</TD>
+		<TD>T. Vannoy</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">SoC FPGAs 2: Custom Computing</TD></TR>
@@ -414,7 +414,7 @@ digraph current {
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
-		 <TD>CBB 224</TD>
+		 <TD>C. Chang/H. Sanchez</TD>
 		 <TD>1</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Undergraduate Research</TD></TR>
@@ -426,7 +426,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>ROBERT 201</TD>
+		<TD>B. McCoy</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Data Structures and Algorithms</TD></TR>
@@ -436,7 +436,7 @@ digraph current {
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
-		 <TD>WEB</TD>
+		 <TD>E. Varnes</TD>
 		 <TD>3</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Multidisciplinary Engineering Design</TD></TR>
@@ -446,7 +446,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>WEB</TD>
+		<TD>S. Rutherford</TD>
 		<TD>2</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Applied Engineering Data Analysis</TD></TR>
@@ -458,7 +458,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>BARNAR 108</TD>
+		<TD>B. Zhu</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Operating Systems</TD></TR>
@@ -468,7 +468,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>NAH 153</TD>
+		<TD>B. Sidar</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Reactor Design</TD></TR>
@@ -478,7 +478,7 @@ digraph current {
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
-		 <TD>ROMNEY 211</TD>
+		 <TD>???</TD>
 		 <TD>3</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Chemical Engineering Design 1</TD></TR>
@@ -488,7 +488,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>REID 103</TD>
+		<TD>???</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
@@ -498,7 +498,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>BARNAR 126</TD>
+		<TD>K. Morissey</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
@@ -508,7 +508,7 @@ digraph current {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>NAH 153</TD>
+		<TD>K. Repasky</TD>
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Circuits 2</TD></TR>
