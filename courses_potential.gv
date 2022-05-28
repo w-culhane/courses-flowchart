@@ -722,7 +722,7 @@ digraph potential {
     "M 273Q" -> "CHMY 373";
     "ECHM 411R" -> "ECHM 412R";
     "ECHM 442" -> "ECHM 443";
-    { "ECHM 328" "ECHM 323" "M 274" } -> "ECHM 451";
+    { "EBIO 438" "M 274" } -> "ECHM 451";
     "EELE 371" -> "EELE 465";
 
     { "CSCI 232" "CSCI 246" } -> "CSCI 451";
