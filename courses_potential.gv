@@ -35,10 +35,10 @@ digraph potential {
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 490R"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
 	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "CSCI 232"; }
 	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
-	{ rank = same; "Spring 2023"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; "ECHM 407"; }
+	{ rank = same; "Spring 2023"; "EGEN 488-1"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; "ECHM 407"; }
 	{ rank = same; "Summer 2023"; "CSCI 246"; }
 	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "CSCI 451"; }
-	{ rank = same; "Spring 2024"; "EGEN 488"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "EELE 334"; }
+	{ rank = same; "Spring 2024"; "EGEN 488-2"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "EELE 334"; }
     }
 
     // Course labels
@@ -643,10 +643,20 @@ digraph potential {
 		<TR><TD COLSPAN="3">Professional Ethics and Practices</TD></TR>
 		</TABLE>>];
 
-    "EGEN 488" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" COLOR="red">
+    "EGEN 488-1" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
-		<TD>\N</TD>
+		<TD>EGEN 488 (ChE)</TD>
+		<TD>F S</TD>
+		<TD>0</TD>
+		</TR>
+		<TR><TD COLSPAN="3">FE Exam</TD></TR>
+		</TABLE>>];
+
+    "EGEN 488-2" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>EGEN 488 (CpE)</TD>
 		<TD>F S</TD>
 		<TD>0</TD>
 		</TR>
