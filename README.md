@@ -1,1 +1,1 @@
-![Courses flowchart](https://culhane.top/doc/courses_current.svg)
+![Courses flowchart](https://wculhane.com/doc/courses_current.svg)
