@@ -21,7 +21,7 @@ digraph potential {
     "Fall 2022"      [label="\N\n19 credits"]
     "Spring 2023"    [label="\N\n19 credits"]
     "Summer 2023"    [label="\N\n3 credits"]
-    "Fall 2023"      [label="\N\n11 credits"]
+    "Fall 2023"      [label="\N\n8 credits"]
     "Spring 2024"    [label="\N\n14 credits"]
 
     {node [shape=none,margin=0];
@@ -467,7 +467,7 @@ digraph potential {
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>R. Pearsall</TD>
+		<TD>B. Zhu</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Operating Systems</TD></TR>
