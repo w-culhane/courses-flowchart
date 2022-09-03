@@ -566,26 +566,6 @@ digraph potential {
 		<TR><TD COLSPAN="3">Electronics</TD></TR>
 		</TABLE>>];
 
-    "EELE 408" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>ROBERT 319</TD>
-		<TD>3</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Photovoltaic Systems</TD></TR>
-		</TABLE>>];
-
-    "CHMY 373" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>NAH 165</TD>
-		<TD>3</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Physical Chemistry 2</TD></TR>
-		</TABLE>>];
-
     "ECHM 412R" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
