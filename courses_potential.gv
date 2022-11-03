@@ -523,6 +523,78 @@ digraph potential {
 		<TR><TD COLSPAN="3">Circuits 2</TD></TR>
 		</TABLE>>];
 
+    // Spring 2023
+
+    "ECHM 407" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>TBA</TD>
+		<TD>2</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		</TABLE>>];
+
+    "ECHM 412R" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>\N</TD>
+		 <TD>B. Peyton</TD>
+		 <TD>3</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Chemical Engineering Design 2</TD></TR>
+		 </TABLE>>];
+
+    "ECHM 424" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>A. Richards</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Transport Analysis</TD></TR>
+		</TABLE>>];
+
+    "ECHM 443" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>J. Brown</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Chemical Engineering Lab 2</TD></TR>
+		</TABLE>>];
+
+    "EELE 308" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>B. Whitaker</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Signals and Systems Analysis</TD></TR>
+		</TABLE>>];
+
+    "EELE 317" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>R. Maher</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Electronics</TD></TR>
+		</TABLE>>];
+
+    "EGEN 488-1" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>EGEN 488</TD>
+		<TD>N/A</TD>
+		<TD>0</TD>
+		</TR>
+		<TR><TD COLSPAN="3">FE Exam (ChE)</TD></TR>
+		</TABLE>>];
+
     // Beyond
 
     "CSCI 246" [label=<
@@ -533,57 +605,6 @@ digraph potential {
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Discrete Structures</TD></TR>
-		</TABLE>>];
-
-
-    "ECHM 407" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>F S</TD>
-		<TD>2</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
-		</TABLE>>];
-
-    "ECHM 424" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>F</TD>
-		<TD>3</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Transport Analysis</TD></TR>
-		</TABLE>>];
-
-    "EELE 317" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>F S</TD>
-		<TD>4</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Electronics</TD></TR>
-		</TABLE>>];
-
-    "ECHM 412R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>\N</TD>
-		 <TD>S</TD>
-		 <TD>3</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Chemical Engineering Design 2</TD></TR>
-		 </TABLE>>];
-
-    "ECHM 443" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>S</TD>
-		<TD>3</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Chemical Engineering Lab 2</TD></TR>
 		</TABLE>>];
 
     "EELE 465" [label=<
@@ -604,16 +625,6 @@ digraph potential {
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Computational Biology</TD></TR>
-		</TABLE>>];
-
-    "EELE 308" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>F S</TD>
-		<TD>4</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Signals and Systems Analysis</TD></TR>
 		</TABLE>>];
 
     "EELE 321" [label=<
@@ -674,16 +685,6 @@ digraph potential {
 		<TD>1</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Professional Ethics and Practices</TD></TR>
-		</TABLE>>];
-
-    "EGEN 488-1" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>EGEN 488</TD>
-		<TD>N/A</TD>
-		<TD>0</TD>
-		</TR>
-		<TR><TD COLSPAN="3">FE Exam (ChE)</TD></TR>
 		</TABLE>>];
 
     "EGEN 488-2" [label=<

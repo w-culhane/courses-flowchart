@@ -5,7 +5,7 @@ digraph current {
 	"Fall 2019" -> "Spring 2020"
 	-> "Fall 2020" -> "Winter 2020-21" -> "Spring 2021" -> "Summer 2021"
 	-> "Fall 2021" -> "Spring 2022" -> "Summer 2022"
-	-> "Fall 2022";
+	-> "Fall 2022" -> "Spring 2023";
     }
 
     "Fall 2019"      [label="\N\n15 credits"]
@@ -18,6 +18,7 @@ digraph current {
     "Spring 2022"    [label="\N\n21 credits"]
     "Summer 2022"    [label="\N\n9 credits"]
     "Fall 2022"      [label="\N\n19 credits"]
+    "Spring 2023"    [label="\N\n19 credits"]
 
     {node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -30,6 +31,7 @@ digraph current {
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 490R"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
 	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "CSCI 232"; }
 	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
+	{ rank = same; "Spring 2023"; "EGEN 488-1"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; "ECHM 407"; }
     }
 
     // Course labels
@@ -514,6 +516,78 @@ digraph current {
 		<TR><TD COLSPAN="3">Circuits 2</TD></TR>
 		</TABLE>>];
 
+    // Spring 2023
+
+    "ECHM 407" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>TBA</TD>
+		<TD>2</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		</TABLE>>];
+
+    "ECHM 412R" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>\N</TD>
+		 <TD>B. Peyton</TD>
+		 <TD>3</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Chemical Engineering Design 2</TD></TR>
+		 </TABLE>>];
+
+    "ECHM 424" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>A. Richards</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Transport Analysis</TD></TR>
+		</TABLE>>];
+
+    "ECHM 443" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>J. Brown</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Chemical Engineering Lab 2</TD></TR>
+		</TABLE>>];
+
+    "EELE 308" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>B. Whitaker</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Signals and Systems Analysis</TD></TR>
+		</TABLE>>];
+
+    "EELE 317" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>R. Maher</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Electronics</TD></TR>
+		</TABLE>>];
+
+    "EGEN 488-1" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>EGEN 488</TD>
+		<TD>N/A</TD>
+		<TD>0</TD>
+		</TR>
+		<TR><TD COLSPAN="3">FE Exam (ChE)</TD></TR>
+		</TABLE>>];
+
     // Course pre- & co- requisites
 
     // Spring 2020
@@ -575,4 +649,12 @@ digraph current {
     { "ECHM 323" "EGEN 350" } -> "ECHM 442";
     { "EBIO 438" "M 274" } -> "ECHM 451";
     { "EELE 201" "M 274" } -> "EELE 203";
+
+    // Spring 2023
+    { "ECHM 307" "ECHM 323" "ECHM 328" } -> "ECHM 407";
+    "ECHM 411R" -> "ECHM 412R";
+    { "ECHM 323" "M 273Q" "M 274" } -> "ECHM 424";
+    "ECHM 442" -> "ECHM 443";
+    "EELE 203" -> "EELE 317";
+    { "EELE 203" "EGEN 350" "M 273Q" } -> "EELE 308";
 }
