@@ -19,9 +19,9 @@ digraph potential {
     "Spring 2022"    [label="\N\n21 credits"]
     "Summer 2022"    [label="\N\n9 credits"]
     "Fall 2022"      [label="\N\n19 credits"]
-    "Spring 2023"    [label="\N\n19 credits"]
-    "Fall 2023"      [label="\N\n8 credits"]
-    "Spring 2024"    [label="\N\n14 credits"]
+    "Spring 2023"    [label="\N\n20 credits"]
+    "Fall 2023"      [label="\N\n11 credits"]
+    "Spring 2024"    [label="\N\n13 credits"]
 
     {node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -34,9 +34,9 @@ digraph potential {
 	{ rank = same; "Spring 2022"; "EELE 468"; "EELE 408"; "EELE 201"; "ECHM 490R"; "ECHM 323"; "EBIO 438"; "CHMY 373"; }
 	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "CSCI 232"; }
 	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
-	{ rank = same; "Spring 2023"; "EGEN 488-1"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; "ECHM 407"; }
-	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 321"; "CSCI 246"; }
-	{ rank = same; "Spring 2024"; "EGEN 488-2"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "EELE 334"; }
+	{ rank = same; "Spring 2023"; "EGEN 488-1"; "EELE 321"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; }
+	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "CSCI 466"; "CSCI 246"; }
+	{ rank = same; "Spring 2024"; "EGEN 488-2"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "ECHM 407"; }
     }
 
     // Course labels
@@ -523,16 +523,6 @@ digraph potential {
 
     // Spring 2023
 
-    "ECHM 407" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>S. Jayaratne</TD>
-		<TD>2</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
-		</TABLE>>];
-
     "ECHM 412R" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
@@ -583,6 +573,16 @@ digraph potential {
 		<TR><TD COLSPAN="3">Electronics</TD></TR>
 		</TABLE>>];
 
+    "EELE 321" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>S. Shaw</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Intro to Feedback Controls</TD></TR>
+		</TABLE>>];
+
     "EGEN 488-1" [label=<
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
@@ -605,6 +605,26 @@ digraph potential {
 		<TR><TD COLSPAN="3">Discrete Structures</TD></TR>
 		</TABLE>>];
 
+    "CSCI 466" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>F</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Networks</TD></TR>
+		</TABLE>>];
+
+    "ECHM 407" [label=<
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>F S</TD>
+		<TD>2</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		</TABLE>>];
+
     "EELE 465" [label=<
 		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		<TR>
@@ -613,16 +633,6 @@ digraph potential {
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Microcontroller Applications</TD></TR>
-		</TABLE>>];
-
-    "EELE 321" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		<TR>
-		<TD>\N</TD>
-		<TD>F S</TD>
-		<TD>3</TD>
-		</TR>
-		<TR><TD COLSPAN="3">Intro to Feedback Controls</TD></TR>
 		</TABLE>>];
 
     "EELE 334" [label=<
@@ -756,4 +766,5 @@ digraph potential {
 
     { "CSCI 232" "EELE 371" } -> "CSCI 460";
     "PHSX 222" -> "EELE 484";
+    { "CSCI 232" "CSCI 112" } -> "CSCI 466";
 }
