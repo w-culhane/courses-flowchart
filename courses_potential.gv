@@ -20,7 +20,7 @@ digraph potential {
     "Summer 2022"    [label="\N\n9 credits"]
     "Fall 2022"      [label="\N\n19 credits"]
     "Spring 2023"    [label="\N\n20 credits"]
-    "Fall 2023"      [label="\N\n11 credits"]
+    "Fall 2023"      [label="\N\n18 credits"]
     "Spring 2024"    [label="\N\n13 credits"]
 
     {node [shape=none,margin=0];
@@ -35,7 +35,7 @@ digraph potential {
 	{ rank = same; "Summer 2022"; "EGEN 350"; "EGEN 310R"; "CSCI 232"; }
 	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
 	{ rank = same; "Spring 2023"; "EGEN 488-1"; "EELE 321"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; }
-	{ rank = same; "Fall 2023"; "EELE 488R"; "EELE 334"; "CSCI 466"; "CSCI 246"; }
+	{ rank = same; "Fall 2023"; "HONR 400"; "EELE 488R"; "EELE 422"; "EELE 334"; "CSCI 466"; "CSCI 246"; }
 	{ rank = same; "Spring 2024"; "EGEN 488-2"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "ECHM 407"; }
     }
 
@@ -44,7 +44,7 @@ digraph potential {
     // Fall 2019
 
     "CHMY 151" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>R. Szilagyi/J. Broderick</TD>
@@ -54,7 +54,7 @@ digraph potential {
 		</TABLE>>];
 
     "HONR 201US" [label=<
-		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		  <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		  <TR>
 		  <TD>\N</TD>
 		  <TD>M. Lomakina</TD>
@@ -64,7 +64,7 @@ digraph potential {
 		  </TABLE>>];
 
     "M 181Q" [label=<
-	      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+	      <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 	      <TR>
 	      <TD>\N</TD>
 	      <TD>J. Lund</TD>
@@ -74,7 +74,7 @@ digraph potential {
 	      </TABLE>>];
 
     "SPNS 102D" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>P. Gomez</TD>
@@ -86,7 +86,7 @@ digraph potential {
     // Spring 2020
 
     "CHMY 153" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>W. Steel</TD>
@@ -96,7 +96,7 @@ digraph potential {
 		</TABLE>>];
 
     "CS 145RA" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>D. DeFrance</TD>
@@ -106,7 +106,7 @@ digraph potential {
 		</TABLE>>];
 
     "HONR 202IH" [label=<
-		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		  <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		  <TR>
 		  <TD>\N</TD>
 		  <TD>L. Rus-Ogilvie</TD>
@@ -116,7 +116,7 @@ digraph potential {
 		  </TABLE>>];
 
     "M 182Q" [label=<
-	      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+	      <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 	      <TR>
 	      <TD>\N</TD>
 	      <TD>J. Markman</TD>
@@ -126,7 +126,7 @@ digraph potential {
 	      </TABLE>>];
 
     "PHSX 220" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>N. Childs</TD>
@@ -138,7 +138,7 @@ digraph potential {
     // Fall 2020
 
     "CHMY 311" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Klassen</TD>
@@ -148,7 +148,7 @@ digraph potential {
 		</TABLE>>];
 
     "CHMY 331" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>M. Cloninger</TD>
@@ -158,7 +158,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 261" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>A. Kunze</TD>
@@ -168,7 +168,7 @@ digraph potential {
 		</TABLE>>];
 
     "M 273Q" [label=<
-	      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+	      <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 	      <TR>
 	      <TD>\N</TD>
 	      <TD>J. Antonioli</TD>
@@ -178,7 +178,7 @@ digraph potential {
 	      </TABLE>>];
 
     "PHSX 222" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>N. Childs</TD>
@@ -190,7 +190,7 @@ digraph potential {
     // Winter 2020-21
 
     "CSCI 127" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>R. Pearsall</TD>
@@ -202,7 +202,7 @@ digraph potential {
     // Spring 2021
 
     "CHMY 333" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>M. Cook</TD>
@@ -212,7 +212,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 201" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>C. Chang</TD>
@@ -222,7 +222,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 367" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>B. LaMeres</TD>
@@ -232,7 +232,7 @@ digraph potential {
 		</TABLE>>];
 
     "EGEN 102" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Heys</TD>
@@ -242,7 +242,7 @@ digraph potential {
 		</TABLE>>];
 
     "M 274" [label=<
-	     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+	     <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 	     <TR>
 	     <TD>\N</TD>
 	     <TD>K. Nordby</TD>
@@ -254,7 +254,7 @@ digraph potential {
     // Summer 2021
 
     "CSCI 112" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>L. Williams</TD>
@@ -264,7 +264,7 @@ digraph potential {
 		</TABLE>>];
 
     "CSCI 132" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>F. Rehman</TD>
@@ -274,7 +274,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 371" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>B. LaMeres</TD>
@@ -284,7 +284,7 @@ digraph potential {
 		</TABLE>>];
 
     "EMAT 251" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Menicucci</TD>
@@ -296,7 +296,7 @@ digraph potential {
     // Fall 2021
 
     "ECHM 307" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Menicucci</TD>
@@ -306,7 +306,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 321" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Brown</TD>
@@ -316,7 +316,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 322" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>L. Schultz</TD>
@@ -326,7 +326,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECNS 251IS" [label=<
-		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		  <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		  <TR>
 		  <TD>\N</TD>
 		  <TD>G. Gilpin</TD>
@@ -336,7 +336,7 @@ digraph potential {
 		  </TABLE>>];
 
     "EELE 101" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>B. LaMeres</TD>
@@ -346,7 +346,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 467" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>R. Snider</TD>
@@ -358,7 +358,7 @@ digraph potential {
     // Spring 2022
 
     "CHMY 373" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>M. Mosquera</TD>
@@ -368,7 +368,7 @@ digraph potential {
 		</TABLE>>];
 
     "EBIO 438" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>R. Carlson</TD>
@@ -378,7 +378,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 323" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S. Wettstein</TD>
@@ -388,7 +388,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 201" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Becker</TD>
@@ -398,7 +398,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 408" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>T. Kaiser</TD>
@@ -408,7 +408,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 468" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>T. Vannoy</TD>
@@ -418,7 +418,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 490R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>C. Chang/H. Sanchez</TD>
@@ -430,7 +430,7 @@ digraph potential {
     // Summer 2022
 
     "CSCI 232" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>B. McCoy</TD>
@@ -440,7 +440,7 @@ digraph potential {
 		</TABLE>>];
 
     "EGEN 310R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>E. Varnes</TD>
@@ -450,7 +450,7 @@ digraph potential {
 		 </TABLE>>];
 
     "EGEN 350" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S. Rutherford</TD>
@@ -462,7 +462,7 @@ digraph potential {
     // Fall 2022
 
     "CSCI 460" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>B. Zhu</TD>
@@ -472,7 +472,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 328" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S. Jayaratne</TD>
@@ -482,7 +482,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 411R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>R. Anderson</TD>
@@ -492,7 +492,7 @@ digraph potential {
 		 </TABLE>>];
 
     "ECHM 442" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S. Wettstein</TD>
@@ -502,7 +502,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 451" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>K. Morrissey</TD>
@@ -512,7 +512,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 203" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>K. Repasky</TD>
@@ -524,7 +524,7 @@ digraph potential {
     // Spring 2023
 
     "ECHM 412R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>R. Anderson</TD>
@@ -534,7 +534,7 @@ digraph potential {
 		 </TABLE>>];
 
     "ECHM 424" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S. McCalla</TD>
@@ -544,7 +544,7 @@ digraph potential {
 		</TABLE>>];
 
     "ECHM 443" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>J. Brown</TD>
@@ -554,7 +554,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 308" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>B. Whitaker</TD>
@@ -564,7 +564,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 317" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>R. Maher</TD>
@@ -574,7 +574,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 321" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S. Shaw</TD>
@@ -584,7 +584,7 @@ digraph potential {
 		</TABLE>>];
 
     "EGEN 488-1" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>EGEN 488</TD>
 		<TD>N/A</TD>
@@ -596,7 +596,7 @@ digraph potential {
     // Fall 2023
 
     "CSCI 246" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>?</TD>
@@ -606,7 +606,7 @@ digraph potential {
 		</TABLE>>];
 
     "CSCI 466" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>R. Pearsall</TD>
@@ -616,7 +616,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 334" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>K. Repasky</TD>
@@ -625,8 +625,18 @@ digraph potential {
 		<TR><TD COLSPAN="3">Electromagnetic Theory 1</TD></TR>
 		</TABLE>>];
 
+    "EELE 422" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>S. Shaw</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Intro to Modern Control</TD></TR>
+		</TABLE>>];
+
     "EELE 488R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>W. Nakagawa</TD>
@@ -638,7 +648,7 @@ digraph potential {
     // Spring 2024
 
     "ECHM 407" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>F S</TD>
@@ -648,7 +658,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 465" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S</TD>
@@ -658,7 +668,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 484" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S</TD>
@@ -668,7 +678,7 @@ digraph potential {
 		</TABLE>>];
 
     "EELE 489R" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
 		 <TD>F S</TD>
@@ -678,7 +688,7 @@ digraph potential {
 		 </TABLE>>];
 
     "EELE 487" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
 		<TD>S</TD>
@@ -688,13 +698,23 @@ digraph potential {
 		</TABLE>>];
 
     "EGEN 488-2" [label=<
-		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>EGEN 488</TD>
 		<TD>N/A</TD>
 		<TD>0</TD>
 		</TR>
 		<TR><TD COLSPAN="3">FE Exam (CpE)</TD></TR>
+		</TABLE>>];
+
+    "HONR 400" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>T. Donovan</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Death Becomes Us</TD></TR>
 		</TABLE>>];
 
     // Course pre- & co- requisites
@@ -762,6 +782,7 @@ digraph potential {
     { "EELE 203" "M 273Q" } -> "EELE 308";
     "EELE 203" -> "EELE 321";
     { "PHSX 222" "M 273Q" } -> "EELE 334";
+    "EELE 321" -> "EELE 422";
     { "EELE 317" "EGEN 310R" } -> "EELE 488R";
 
     "EELE 488R" -> "EELE 489R";
