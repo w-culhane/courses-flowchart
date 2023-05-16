@@ -730,4 +730,5 @@ digraph current {
     { "PHSX 222" "M 273Q" } -> "EELE 334";
     "EELE 321" -> "EELE 422";
     { "EELE 317" "EGEN 310R" } -> "EELE 488R";
+    "HONR 202IH" -> "HONR 400";
 }
