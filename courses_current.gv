@@ -6,7 +6,7 @@ digraph current {
 	-> "Fall 2020" -> "Winter 2020-21" -> "Spring 2021" -> "Summer 2021"
 	-> "Fall 2021" -> "Spring 2022" -> "Summer 2022"
 	-> "Fall 2022" -> "Spring 2023"
-	-> "Fall 2023";
+	-> "Fall 2023" -> "Spring 2024";
     }
 
     "Fall 2019"      [label="\N\n15 credits"]
@@ -21,6 +21,7 @@ digraph current {
     "Fall 2022"      [label="\N\n19 credits"]
     "Spring 2023"    [label="\N\n20 credits"]
     "Fall 2023"      [label="\N\n15 credits"]
+    "Spring 2024"    [label="\N\n17 credits"]
 
     {node [shape=none,margin=0];
 	{ rank = same; "Fall 2019"; "SPNS 102D"; "M 181Q"; "HONR 201US"; "CHMY 151"; }
@@ -35,6 +36,7 @@ digraph current {
 	{ rank = same; "Fall 2022"; "EELE 203"; "ECHM 451"; "ECHM 442"; "ECHM 411R"; "ECHM 328"; "CSCI 460"; }
 	{ rank = same; "Spring 2023"; "EGEN 488-1"; "EELE 321"; "EELE 317"; "EELE 308"; "ECHM 443"; "ECHM 424"; "ECHM 412R"; }
 	{ rank = same; "Fall 2023"; "HONR 400"; "EELE 488R"; "EELE 334"; "CSCI 466"; "CSCI 246"; }
+	{ rank = same; "Spring 2024"; "HONR 406"; "EELE 489R"; "EELE 487"; "EELE 484"; "EELE 465"; "ECHM 407"; }
     }
 
     // Course labels
@@ -597,7 +599,7 @@ digraph current {
 		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		<TR>
 		<TD>\N</TD>
-		<TD>?</TD>
+		<TD>L. Williams</TD>
 		<TD>3</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Discrete Structures</TD></TR>
@@ -627,7 +629,7 @@ digraph current {
 		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
 		 <TD>\N</TD>
-		 <TD>W. Nakagawa</TD>
+		 <TD>W. Nakagawa/C. Mettler</TD>
 		 <TD>2</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Electrical Engineering Design 1</TD></TR>
@@ -641,6 +643,68 @@ digraph current {
 		<TD>4</TD>
 		</TR>
 		<TR><TD COLSPAN="3">Death Becomes Us</TD></TR>
+		</TABLE>>];
+
+    // Spring 2024
+
+    "ECHM 407" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>S. Jayaratne</TD>
+		<TD>2</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		</TABLE>>];
+
+    "EELE 465" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>C. Mettler</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Microcontroller Applications</TD></TR>
+		</TABLE>>];
+
+    "EELE 484" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>K. Repasky</TD>
+		<TD>3</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Laser Engineering</TD></TR>
+		</TABLE>>];
+
+    "EELE 489R" [label=<
+		 <TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>\N</TD>
+		 <TD>W. Nakagawa/C. Mettler</TD>
+		 <TD>3</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Electrical Engineering Design 2</TD></TR>
+		 </TABLE>>];
+
+    "EELE 487" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>R. Maher</TD>
+		<TD>1</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Professional Ethics and Practices</TD></TR>
+		</TABLE>>];
+
+    "HONR 406" [label=<
+		<TABLE BORDER="3" CELLBORDER="2" CELLSPACING="0" CELLPADDING="4">
+		<TR>
+		<TD>\N</TD>
+		<TD>R. Broome</TD>
+		<TD>4</TD>
+		</TR>
+		<TR><TD COLSPAN="3">Critical Perspectives in Leadership</TD></TR>
 		</TABLE>>];
 
     // Course pre- & co- requisites
@@ -720,4 +784,11 @@ digraph current {
     { "PHSX 222" "M 273Q" } -> "EELE 334";
     { "EELE 317" "EGEN 310R" } -> "EELE 488R";
     "HONR 202IH" -> "HONR 400";
+
+    // Spring 2024
+    { "ECHM 307" "ECHM 323" "ECHM 328" } -> "ECHM 407";
+    "EELE 371" -> "EELE 465";
+    "PHSX 222" -> "EELE 484";
+    "EELE 488R" -> "EELE 489R";
+    "HONR 202IH" -> "HONR 406";
 }
